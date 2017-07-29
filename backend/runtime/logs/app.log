@@ -42047,3 +42047,588 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1501303061.686
     'REQUEST_TIME' => 1501303061
 ]
+2017-07-29 06:27:52 [23.99.101.118][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 23.99.101.118
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/UserController.php:130
+2017-07-29 06:27:52 [23.99.101.118][-][-][info][application] $_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/user/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/user/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) SkypeUriPreview Preview/0.5'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '23.99.101.118'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '1024'
+    'REDIRECT_URL' => '/user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501309672.259
+    'REQUEST_TIME' => 1501309672
+]
+2017-07-29 06:30:14 [113.179.155.183][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 113.179.155.183
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/UserController.php:130
+2017-07-29 06:30:14 [113.179.155.183][-][-][info][application] $_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/user/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/user/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Safari/602.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-vn'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '113.179.155.183'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '49416'
+    'REDIRECT_URL' => '/user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501309814.57
+    'REQUEST_TIME' => 1501309814
+]
+2017-07-29 06:33:36 [120.138.68.219][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 120.138.68.219
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/UserController.php:130
+2017-07-29 06:33:35 [120.138.68.219][-][-][info][application] $_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/user/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/user/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1667.0 Safari/537.36 _zbot'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CACHE_CONTROL' => 'max-age=259200'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '120.138.68.219'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '56664'
+    'REDIRECT_URL' => '/user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501310015.931
+    'REQUEST_TIME' => 1501310015
+]
+2017-07-29 06:34:34 [113.179.155.183][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 113.179.155.183
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/UserController.php:130
+2017-07-29 06:34:34 [113.179.155.183][-][-][info][application] $_GET = [
+    'utm_source' => 'zalo'
+    'utm_medium' => 'zalo'
+    'utm_campaign' => 'zalo'
+    'zarsrc' => '30'
+]
+
+$_COOKIE = [
+    'backend_pre-bit_org_is_z_debug' => '0'
+    'zlanguage' => 'vi'
+    'znetwork' => '0'
+    'zoperator' => '45204'
+    'ztype' => '2'
+    'zversion' => '128'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/user/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/user/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_COOKIE' => 'backend.pre-bit.org_is_z_debug=0; zlanguage=vi; znetwork=0; zoperator=45204; ztype=2; zversion=128'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Mobile/14F89 Zalo iOS'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-vn'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '113.179.155.183'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '54115'
+    'REDIRECT_URL' => '/user/index'
+    'REDIRECT_QUERY_STRING' => 'utm_source=zalo&utm_medium=zalo&utm_campaign=zalo&zarsrc=30'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'utm_source=zalo&utm_medium=zalo&utm_campaign=zalo&zarsrc=30'
+    'REQUEST_URI' => '/user/index?utm_source=zalo&utm_medium=zalo&utm_campaign=zalo&zarsrc=30'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501310074.21
+    'REQUEST_TIME' => 1501310074
+]
+2017-07-29 06:35:01 [113.179.155.183][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 113.179.155.183
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/UserController.php:130
+2017-07-29 06:35:01 [113.179.155.183][-][-][info][application] $_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/user/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/user/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPad; CPU OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.0 Mobile/14F89 Safari/602.1'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-vn'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '113.179.155.183'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '54133'
+    'REDIRECT_URL' => '/user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501310101.32
+    'REQUEST_TIME' => 1501310101
+]
+2017-07-29 06:35:42 [113.179.155.183][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 113.179.155.183
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/SettingController.php:175
+2017-07-29 06:35:42 [113.179.155.183][-][-][info][application] $_COOKIE = [
+    '_csrf-backend' => '6bf6d1b1b7877b1b2686f702293ed05f248b9e8e4319b6b9d8985b98e1d38092a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"XBYsNoRq1sstaZf3hPo0a3ai5aNPBJBJ\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/setting/general'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/setting/general'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/setting/general'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/setting/general'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf-backend=6bf6d1b1b7877b1b2686f702293ed05f248b9e8e4319b6b9d8985b98e1d38092a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22XBYsNoRq1sstaZf3hPo0a3ai5aNPBJBJ%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPad; CPU OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.0 Mobile/14F89 Safari/602.1'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-vn'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '113.179.155.183'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '54139'
+    'REDIRECT_URL' => '/setting/general'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/setting/general'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501310142.393
+    'REQUEST_TIME' => 1501310142
+]
+2017-07-29 06:36:17 [113.179.155.183][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 113.179.155.183
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/UserController.php:130
+2017-07-29 06:36:16 [113.179.155.183][-][-][info][application] $_COOKIE = [
+    '_csrf-backend' => '6bf6d1b1b7877b1b2686f702293ed05f248b9e8e4319b6b9d8985b98e1d38092a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"XBYsNoRq1sstaZf3hPo0a3ai5aNPBJBJ\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/user/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/user/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf-backend=6bf6d1b1b7877b1b2686f702293ed05f248b9e8e4319b6b9d8985b98e1d38092a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22XBYsNoRq1sstaZf3hPo0a3ai5aNPBJBJ%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPad; CPU OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.0 Mobile/14F89 Safari/602.1'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/setting/general'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-vn'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '113.179.155.183'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '54142'
+    'REDIRECT_URL' => '/user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501310176.989
+    'REQUEST_TIME' => 1501310176
+]
+2017-07-29 06:36:26 [113.179.155.183][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 113.179.155.183
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/UserController.php:130
+2017-07-29 06:36:26 [113.179.155.183][-][-][info][application] $_GET = [
+    'page' => '15'
+]
+
+$_COOKIE = [
+    '_csrf-backend' => '6bf6d1b1b7877b1b2686f702293ed05f248b9e8e4319b6b9d8985b98e1d38092a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"XBYsNoRq1sstaZf3hPo0a3ai5aNPBJBJ\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/user/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/user/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf-backend=6bf6d1b1b7877b1b2686f702293ed05f248b9e8e4319b6b9d8985b98e1d38092a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22XBYsNoRq1sstaZf3hPo0a3ai5aNPBJBJ%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPad; CPU OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.0 Mobile/14F89 Safari/602.1'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-vn'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '113.179.155.183'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '54146'
+    'REDIRECT_URL' => '/user/index'
+    'REDIRECT_QUERY_STRING' => 'page=15'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'page=15'
+    'REQUEST_URI' => '/user/index?page=15'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501310186.178
+    'REQUEST_TIME' => 1501310186
+]
+2017-07-29 06:36:35 [113.179.155.183][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 113.179.155.183
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/UserController.php:130
+2017-07-29 06:36:35 [113.179.155.183][-][-][info][application] $_GET = [
+    'page' => '13'
+]
+
+$_COOKIE = [
+    '_csrf-backend' => '6bf6d1b1b7877b1b2686f702293ed05f248b9e8e4319b6b9d8985b98e1d38092a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"XBYsNoRq1sstaZf3hPo0a3ai5aNPBJBJ\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/user/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/user/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf-backend=6bf6d1b1b7877b1b2686f702293ed05f248b9e8e4319b6b9d8985b98e1d38092a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22XBYsNoRq1sstaZf3hPo0a3ai5aNPBJBJ%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPad; CPU OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.0 Mobile/14F89 Safari/602.1'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/user/index?page=15'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-vn'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '113.179.155.183'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '54150'
+    'REDIRECT_URL' => '/user/index'
+    'REDIRECT_QUERY_STRING' => 'page=13'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'page=13'
+    'REQUEST_URI' => '/user/index?page=13'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501310195.519
+    'REQUEST_TIME' => 1501310195
+]
+2017-07-29 06:36:48 [113.179.155.183][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 113.179.155.183
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/UserController.php:130
+2017-07-29 06:36:48 [113.179.155.183][-][-][info][application] $_GET = [
+    'page' => '12'
+]
+
+$_COOKIE = [
+    '_csrf-backend' => '6bf6d1b1b7877b1b2686f702293ed05f248b9e8e4319b6b9d8985b98e1d38092a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"XBYsNoRq1sstaZf3hPo0a3ai5aNPBJBJ\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/user/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/user/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf-backend=6bf6d1b1b7877b1b2686f702293ed05f248b9e8e4319b6b9d8985b98e1d38092a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22XBYsNoRq1sstaZf3hPo0a3ai5aNPBJBJ%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPad; CPU OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.0 Mobile/14F89 Safari/602.1'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/user/index?page=13'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-vn'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '113.179.155.183'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '54154'
+    'REDIRECT_URL' => '/user/index'
+    'REDIRECT_QUERY_STRING' => 'page=12'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'page=12'
+    'REQUEST_URI' => '/user/index?page=12'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501310208.104
+    'REQUEST_TIME' => 1501310208
+]
+2017-07-29 06:36:58 [113.179.155.183][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 113.179.155.183
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/UserController.php:130
+2017-07-29 06:36:57 [113.179.155.183][-][-][info][application] $_GET = [
+    'page' => '11'
+]
+
+$_COOKIE = [
+    '_csrf-backend' => '6bf6d1b1b7877b1b2686f702293ed05f248b9e8e4319b6b9d8985b98e1d38092a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"XBYsNoRq1sstaZf3hPo0a3ai5aNPBJBJ\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/user/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/user/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => '_csrf-backend=6bf6d1b1b7877b1b2686f702293ed05f248b9e8e4319b6b9d8985b98e1d38092a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22XBYsNoRq1sstaZf3hPo0a3ai5aNPBJBJ%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (iPad; CPU OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.0 Mobile/14F89 Safari/602.1'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/user/index?page=12'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-vn'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '113.179.155.183'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '54158'
+    'REDIRECT_URL' => '/user/index'
+    'REDIRECT_QUERY_STRING' => 'page=11'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'page=11'
+    'REQUEST_URI' => '/user/index?page=11'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501310217.823
+    'REQUEST_TIME' => 1501310217
+]
+2017-07-29 12:21:26 [42.115.207.155][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 42.115.207.155
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/UserController.php:130
+2017-07-29 12:21:26 [42.115.207.155][-][-][info][application] $_COOKIE = [
+    'advanced-backend' => 'l2sm14itpt76a74s9sc55jsbl6'
+    '_csrf-backend' => '479a69871a9d9ae9f7b3633860d697786a0f96e39a69fa685867ffe3f675216da:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"CacZZVjJt2EeVCunZsi35b027pQiQ9A5\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/user/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/user/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=l2sm14itpt76a74s9sc55jsbl6; _csrf-backend=479a69871a9d9ae9f7b3633860d697786a0f96e39a69fa685867ffe3f675216da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22CacZZVjJt2EeVCunZsi35b027pQiQ9A5%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '42.115.207.155'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '49937'
+    'REDIRECT_URL' => '/user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501330886.039
+    'REQUEST_TIME' => 1501330886
+]
