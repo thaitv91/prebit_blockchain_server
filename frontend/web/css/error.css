@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'VNFOswaldRegular';
+    src: url('fonts/VNFOswaldRegular.eot');
+    src: url('fonts/VNFOswaldRegular.eot') format('embedded-opentype'),
+         url('fonts/VNFOswaldRegular.woff2') format('woff2'),
+         url('fonts/VNFOswaldRegular.woff') format('woff'),
+         url('fonts/VNFOswaldRegular.ttf') format('truetype'),
+         url('fonts/VNFOswaldRegular.svg#VNFOswaldRegular') format('svg');
+}
+@font-face {
+    font-family: 'VL_OswaldLight';
+    src: url('fonts/VL_OswaldLight.eot');
+    src: url('fonts/VL_OswaldLight.eot') format('embedded-opentype'),
+         url('fonts/VL_OswaldLight.woff2') format('woff2'),
+         url('fonts/VL_OswaldLight.woff') format('woff'),
+         url('fonts/VL_OswaldLight.ttf') format('truetype'),
+         url('fonts/VL_OswaldLight.svg#VL_OswaldLight') format('svg');
+}
+.page-wrap {
+        background: url(../images/error-page.jpg) no-repeat center/cover !important;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .table {
+    width: 100%;
+}
+
+.table .cell {
+    height: 100vh;
+}
+
+a ,a:focus, a:hover {
+    color: #379da9;
+    text-decoration: none;
+}
+
+.footer_,
+.page-wrap:after {
+    min-height: 0 !important;
+}
+
+.logo {
+    position: absolute;
+    top: 60px;
+    margin-left: -110px;
+}
+
+h1 {
+    font-size: 1.875rem;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 1.875rem;
+    font-family: 'VL_OswaldLight';
+    color: #fff;
+}
+.table .cell {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100vh;
+}
+.table {
+    display: table;
+    width: 100%;
+}
+p {
+    color: #fff;
+    font-size: 1.25rem;
+}
+body, html {
+    height: 100%;
+    color: #2a2a2a;
+    background: #2b7aa0;
+    margin: 0;
+    font-family: 'VL_OswaldLight';
+}
+@media only screen and (max-width: 1480px) {
+
+h1 {
+    font-size: 5rem;
+}
+
+}
+
+@media only screen and (max-width: 1920px) {
+
+h1 {
+    font-size: 9.375rem;
+}
+
+p {
+    font-size: 3.125rem;
+}
+
+}

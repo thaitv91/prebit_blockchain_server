@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'VNFOswaldRegular';
+    src: url('fonts/VNFOswaldRegular.eot');
+    src: url('fonts/VNFOswaldRegular.eot') format('embedded-opentype'),
+         url('fonts/VNFOswaldRegular.woff2') format('woff2'),
+         url('fonts/VNFOswaldRegular.woff') format('woff'),
+         url('fonts/VNFOswaldRegular.ttf') format('truetype'),
+         url('fonts/VNFOswaldRegular.svg#VNFOswaldRegular') format('svg');
+}
+@font-face {
+    font-family: 'VL_OswaldLight';
+    src: url('fonts/VL_OswaldLight.eot');
+    src: url('fonts/VL_OswaldLight.eot') format('embedded-opentype'),
+         url('fonts/VL_OswaldLight.woff2') format('woff2'),
+         url('fonts/VL_OswaldLight.woff') format('woff'),
+         url('fonts/VL_OswaldLight.ttf') format('truetype'),
+         url('fonts/VL_OswaldLight.svg#VL_OswaldLight') format('svg');
+}
+body{
+    font-family: 'VL_OswaldLight';
+}
+
+.login-boxs {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ABBEC7;
+    /* margin-top: 20px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    top: 25% !important;
+    left: 0;
+    right: 0;
+    margin-left: 37.5%;
+}
+.register-boxs {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ABBEC7;
+    /* margin-top: 20px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    top: 10% !important;
+    left: 0;
+    right: 0;
+    margin-left: 33.33333333%;
+}
+#login-form .btn-primary, .forgot-box .btn-primary {
+    background: #f58634;
+    border-color: #f58634;
+    padding: 5px 20px;
+    height: auto;
+    border-radius: 10px;
+    font-size: 1.4em;
+}
+.forgot-box h1{
+    margin-top: 0;
+    font-size: 30px;
+}
+.wc{
+    font-size: 1.4em;
+}
+.field-loginform-username, .field-loginform-password{
+    position: relative;
+}
+.field-loginform-username label, .field-loginform-password label{
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    font-size: 14px;
+    width: 20px;
+    margin-left: -2.5px;
+    text-align: center;
+    padding: 10px 0;
+    top: 1px
+}
+#login-form input{
+    padding-left: 30px;
+}
+.field-loginform-rememberme .checkbox{
+    float: left;
+}
+.field-loginform-rememberme .checkbox label{
+    font-size: 1em;
+}
+.meta-footer{
+    font-size: 1em;
+}
+.meta-footer a:hover{
+    text-decoration: none;
+}
+.meta-footer .pull-left a{
+    color: #42b4c2;
+}
+.meta-footer .pull-right a{
+    color: #4f4f4f;
+}
+.lost-pass a{
+    color: #42b4c2;
+    font-size: 1em;
+}
+.login-boxs > h1.text-center{
+    margin-top: 0;
+}
+.register-boxs > h1.text-center{
+    margin-bottom: 20px;
+}
+.register-boxs .form-group{
+    position: relative;
+}
+.field-registerform-fullname label, .field-registerform-username label, .field-registerform-password label, .field-registerform-password_repeat label, .field-registerform-email label, .field-registerform-phone label, .field-registerform-referral_id label, .field-changepassword-password label ,.field-passwordresetrequestform-email label .field-changepassword-password label, .field-changepassword-password_repeat label {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    font-size: 14px;
+    width: 20px;
+    margin-left: -2.5px;
+    text-align: center;
+    padding: 10px 0;
+    top: 1px
+}
+.field-passwordresetrequestform-email, #request-password-reset-form .form-group{
+    position: relative;
+}
+#request-password-reset-form input{
+    padding-left: 30px;
+}
+.field-passwordresetrequestform-email label{
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    font-size: 14px;
+    width: 20px;
+    margin-left: -2.5px;
+    text-align: center;
+    padding: 10px 0;
+    top: 1px;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    cursor:pointer;
+    display:block;
+    width:8px;
+    color: #333;
+    text-align:center;
+    position:relative;
+}
+
+input[type=number]::-webkit-inner-spin-button:before,
+input[type=number]::-webkit-inner-spin-button:after {
+    content: "^";
+    position:absolute;
+    right: 0;
+    font-family:monospace;
+    line-height:
+}
+input[type=number] {-moz-appearance: textfield;}
+input[type=number]::-webkit-inner-spin-button:before {
+    top:0px;
+}
+
+input[type=number]::-webkit-inner-spin-button:after {
+    bottom:0px;
+    -webkit-transform: rotate(180deg);
+}
+@media (min-width: 1024px) and (max-width: 1440px) {
+    body{
+        background-size: auto;
+    }
+    .register-boxs{
+        top: 10% !important;
+        width: 50% !important;
+        margin-left: 25% !important;
+        padding: 0;
+    }
+    .bottom-alre{
+        float: left;width: 100%; 
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 991px) {
+    .register-boxs{
+        margin: 0 2em !important;
+        top: 15% !important;
+    }
+    body{
+        background-size: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-boxs{
+        margin: 0 2em;
+        top: 15% !important;
+    }
+    .register-boxs{
+        margin: 0 2em !important;
+        top: 2% !important;
+        padding: 0;
+    }
+    .register-boxs > h1.text-center{
+        margin-top: 0;
+    }
+    .register-boxs .form-group{
+        margin-bottom: 5px;
+    }
+    body{
+        background-size: auto;
+    }
+}
+@media (max-width: 414px) {
+    .register-boxs{
+        top: 7% !important;
+    }
+}
+@media (width: 320px) {
+    .register-boxs{
+        top: 0;
+    }
+}
+
+
+

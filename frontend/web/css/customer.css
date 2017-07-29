@@ -1,0 +1,307 @@
+body{
+	background-image: url(/images/bg-login.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;	
+}
+.form-box {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #ABBEC7;
+    /* margin-top: 20px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin-left: 37.5%;
+}
+.clear-fix{ clear: both;}
+.form-box .g-recaptcha .rc-anchor-normal{
+	width: 100% !important;
+}
+
+.modal-dialog{
+	z-index: 999999;
+}
+.shWithdraw .table.table-condensed{
+	color: #333;
+}
+
+.alert-system{ display: none;}
+
+.text-red{
+	color:#ff0000;
+}
+.text-green{
+	color:#00D800;
+}
+.text-blue{
+	color:#41A5EB;
+}
+.text-orange{
+	color:#FF8A3C;
+}
+#login-form .btn-primary {
+    background: #42b4c2;
+    border-color: #42b4c2;
+    padding: 5px 20px;
+    height: auto;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+.Withdraw_capital{
+	background-color: #00ca49 !important;
+	border-color: #00ca49 !important;
+}
+
+/*downline tree*/
+.easyui-tree li{ margin: 5px 0;}
+.easyui-tree img{ background-color: #00EB60; margin-right: 10px;}
+.easyui-tree span{ font-size: 14px;}
+.easyui-tree .child { background-color: #2494F2;}
+.easyui-tree .child2 { background-color: #FB38B0;}
+.easyui-tree .child3 { background-color: #C066FF;}
+.easyui-tree .child4 { background-color: #00BBFF;}
+.easyui-tree .child5 { background-color: #00FFEF;}
+.easyui-tree .child6 { background-color: #40FF01;}
+.easyui-tree .child7 { background-color: #D2FF02;}
+.easyui-tree .child8 { background-color: #FFE500;}
+.easyui-tree .child9 { background-color: #FD9300;}
+.easyui-tree .child10 { background-color: #FB4D04;}
+.easyui-tree .child11 { background-color: #FF0C00;}
+.easyui-tree .child12 { background-color: #57009B;}
+
+.amount_convert_currency .prefix, .amount_convert_fee .prefix{
+    color: #cdcdcd;
+    font-size: 1.3em;
+    position: absolute;
+    top: 0;
+    right: 0 !important;
+}
+
+.amount_convert_currency input, .amount_convert_fee input{
+    padding-left:45px !important;
+}
+
+.amount_convert_currency .prefix.right, .amount_convert_fee .prefix.right{
+    right: 0 !important;
+}
+
+.amount_convert_currency .prefix.left, .amount_convert_fee .prefix.left{
+    left: 0 !important;
+}
+
+.the_wheel{
+    background: url(../images/spinwheel.png) no-repeat center center transparent;
+}
+
+.ticketzero{
+    display: none;
+}
+
+.row-anylytist ul.nav-tabs li{
+    width: 33.33333333%;
+}
+.row-anylytist ul.nav-tabs li a{
+    border-radius: 0;
+    color: #333;
+    text-align: center;
+    background: #D8D8D8;
+    margin: 0;
+    border: none;
+}
+.row-anylytist ul.nav-tabs li.active a{
+    background: #42b4c2 !important;
+    color: #fff;
+    border: none;
+}
+.row-anylytist .tab-pane{
+    float: left;
+    width: 100%;
+    background: #fff;
+}
+.row-anylytist .title-win{
+    border: 1px solid #cecece;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.intro-left span{
+    display: inline-block;
+}
+.number-ks{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    border-color: #42b4c2;
+    border: 1px solid #42b4c2;
+    text-align: center;
+    line-height: 20px;
+    background: #42b4c2;
+    color: #fff;
+}
+.text-ks{
+    padding-left: 10px;
+    font-weight: bold;
+}
+.avarta-ks{
+    padding-left: 10px;
+}
+.text-time{
+    float: right;
+}
+.list-top-pl{
+    padding: 10px 10px 0;
+    border: 1px solid #cecece;
+    border-top: none;
+    float: left;
+    width: 100%;
+}
+.list-top-pl li{
+    margin-bottom: 15px;
+    height: 25px;
+}
+
+
+/*chat messages*/
+#messages_container .select-item{
+    background-color: #fff;
+    min-height: 500px;
+}
+
+.list-conversation{
+    border: 1px solid #dadada;
+}
+.list-conversation h3{
+    border-bottom: 1px solid #dadada;
+    margin:0;
+    padding:5px 10px;
+    font-size: 15px;
+}
+.list-conversation .media{
+    margin: 0;
+    padding: 0;
+}
+.list-conversation .media a{
+    display: block;
+    padding: 10px 10px 0;
+}
+.list-conversation .media a.active, .list-conversation .media a:hover{
+    background-color: #F0F0F0;
+}
+.list-conversation .media a .line-hr{
+    margin: 10px 0 0;
+    width: 100%;
+    background-color: #dadada;
+    height: 1px;
+}
+
+.conversation-content{
+    border-top: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+}
+
+.conversation-content .user-conv{
+    border-bottom: 1px solid #dadada;
+    margin:0;
+    padding:5px 0;
+    font-size: 15px;
+}
+
+.scroll-messages, .chat_box_content{
+    overflow-y: scroll;
+}
+@media (max-width: 320px) {
+    .scroll-messages{
+        height: 350px !important;
+    }
+}
+@media (max-width: 441px) {
+    .scroll-messages{
+        height: 500px !important;
+    }
+}
+
+.table-responsive .dataTables_length, .table-responsive .dataTables_filter{
+    display: none;
+}
+table.dataTable, .referrals-wrap .table{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+table.dataTable thead .sorting, 
+table.dataTable thead .sorting_asc, 
+table.dataTable thead .sorting_desc {
+    background : none !important;
+}
+
+table.dataTable thead tr th, table.dataTable tr td{
+    border-right: none;
+    border-left: none;
+}
+.dataTables_info,
+.dataTables_paginate {
+  margin-right: 15px !important;
+}
+.dataTables_filter input {
+  margin-left: 6px;
+}
+.dataTables_paginate{
+    line-height: 35px;
+    margin: 0 10px 10px 0 !important;
+}
+.dataTables_paginate .previous {
+    border-radius: 2px 0 0 2px !important;
+} 
+.dataTables_paginate .next {
+    border-radius: 0 2px 2px 0 !important;
+} 
+.dataTables_paginate a,
+.dataTables_paginate a {
+    background-color: #f58634;
+    border-color: #f58634;
+    color: #fff;
+    line-height: 1.42857;
+    margin-left: -1px;
+    padding: 6px 12px;
+    position: relative;
+    text-decoration: none;
+}
+.dataTables_paginate a.current,
+.dataTables_paginate a:hover,
+.dataTables_paginate span:hover,
+.dataTables_paginate a:focus,
+.dataTables_paginate span:focus {
+  background-color: #f58634 !important;
+  border-color: #f58634 !important;
+  color: #fff;
+}
+.dataTables_paginate a.disabled {
+  color: #ddd;
+}
+.dataTables_paginate a.current{
+  box-shadow: 0 3px 5px rgba(0,0,0,0.125) inset;
+}
+
+.form-search{
+    position: relative;
+    margin-top: 15px;
+}
+.form-search button{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    height: 35px;
+    width: 35px;
+    background-color: #f58634;
+    color: #fff;
+    border-right: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    border-left: none;
+}

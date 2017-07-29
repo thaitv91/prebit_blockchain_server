@@ -1,0 +1,292 @@
+a:8:{s:6:"config";a:5:{s:10:"phpVersion";s:17:"5.5.9-1ubuntu4.20";s:10:"yiiVersion";s:10:"2.0.10-dev";s:11:"application";a:4:{s:3:"yii";s:10:"2.0.10-dev";s:4:"name";s:14:"My Application";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:17:"5.5.9-1ubuntu4.20";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:9:{s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:78:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/vendor/yiisoft/yii2-swiftmailer";}}s:24:"yiisoft/yii2-codeception";a:3:{s:4:"name";s:24:"yiisoft/yii2-codeception";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:16:"@yii/codeception";s:78:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/vendor/yiisoft/yii2-codeception";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:10:"@yii/faker";s:72:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/vendor/yiisoft/yii2-faker";}}s:30:"himiklab/yii2-recaptcha-widget";a:3:{s:4:"name";s:30:"himiklab/yii2-recaptcha-widget";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:24:"@himiklab/yii2/recaptcha";s:84:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/vendor/himiklab/yii2-recaptcha-widget";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:76:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/vendor/yiisoft/yii2-bootstrap";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:10:"@yii/debug";s:72:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:8:"@yii/gii";s:70:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/vendor/yiisoft/yii2-gii";}}s:28:"2amigos/yii2-ckeditor-widget";a:3:{s:4:"name";s:28:"2amigos/yii2-ckeditor-widget";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:19:"@dosamigos/ckeditor";s:86:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/vendor/2amigos/yii2-ckeditor-widget/src";}}s:18:"yiisoft/yii2-redis";a:3:{s:4:"name";s:18:"yiisoft/yii2-redis";s:7:"version";s:11:"9999999-dev";s:5:"alias";a:1:{s:10:"@yii/redis";s:72:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/vendor/yiisoft/yii2-redis";}}}}s:7:"request";a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:500;s:14:"requestHeaders";a:13:{s:4:"host";s:18:"system.pre-bit.org";s:9:"x-real-ip";s:11:"27.67.7.179";s:16:"x-accel-internal";s:31:"/internal-nginx-static-location";s:10:"connection";s:5:"close";s:6:"accept";s:22:"text/html, */*; q=0.01";s:6:"origin";s:26:"https://system.pre-bit.org";s:12:"x-csrf-token";s:56:"Y3dNNDJfOS4UJX1XURxuQCghAQJTb3FAKkU4eXktfXwaGyNcVGtebA==";s:10:"user-agent";s:137:"Mozilla/5.0 (Linux; Android 5.1.1; SM-E500H Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Mobile Safari/537.36";s:16:"x-requested-with";s:14:"XMLHttpRequest";s:7:"referer";s:27:"https://system.pre-bit.org/";s:15:"accept-encoding";s:17:"gzip, deflate, br";s:15:"accept-language";s:56:"vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2";s:6:"cookie";s:467:"_csrf-frontend=79cce1028cd8ebcf7ab9f0282b78ce5d360d55c6bb52ee2260883e985aec146fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22wR0ccCWnKVL6a0HnI2uMKrDRylnhf4gB%22%3B%7D; advanced-frontend=unbkg0t3smt3kpnq2a8cdpn6g0; _identity-frontend=b93ba0e2b8056471f0f2e5f578cf810292a9cdeeb7ba1e102ac90c7ae02a7fd1a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A49%3A%22%5B2068%2C%22qwIdLusRlf62hGqzoWJHNp3MAJA5VuGR%22%2C2592000%5D%22%3B%7D";}s:15:"responseHeaders";a:2:{s:12:"X-Powered-By";s:21:"PHP/5.5.9-1ubuntu4.20";s:12:"Content-Type";s:31:"application/json; charset=UTF-8";}s:5:"route";s:22:"gethelp/standbygethelp";s:6:"action";s:62:"frontend\controllers\GethelpController::actionStandbygethelp()";s:12:"actionParams";a:0:{}s:11:"requestBody";a:0:{}s:6:"SERVER";a:45:{s:4:"USER";s:11:"anton010387";s:4:"HOME";s:27:"/var/www/vhosts/pre-bit.org";s:9:"FCGI_ROLE";s:9:"RESPONDER";s:14:"REDIRECT_HTTPS";s:2:"on";s:15:"REDIRECT_STATUS";s:3:"200";s:5:"HTTPS";s:2:"on";s:17:"proxy-nokeepalive";s:1:"1";s:9:"HTTP_HOST";s:18:"system.pre-bit.org";s:14:"HTTP_X_REAL_IP";s:11:"27.67.7.179";s:21:"HTTP_X_ACCEL_INTERNAL";s:31:"/internal-nginx-static-location";s:15:"HTTP_CONNECTION";s:5:"close";s:14:"CONTENT_LENGTH";s:1:"0";s:11:"HTTP_ACCEPT";s:22:"text/html, */*; q=0.01";s:11:"HTTP_ORIGIN";s:26:"https://system.pre-bit.org";s:17:"HTTP_X_CSRF_TOKEN";s:56:"Y3dNNDJfOS4UJX1XURxuQCghAQJTb3FAKkU4eXktfXwaGyNcVGtebA==";s:15:"HTTP_USER_AGENT";s:137:"Mozilla/5.0 (Linux; Android 5.1.1; SM-E500H Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Mobile Safari/537.36";s:21:"HTTP_X_REQUESTED_WITH";s:14:"XMLHttpRequest";s:12:"HTTP_REFERER";s:27:"https://system.pre-bit.org/";s:20:"HTTP_ACCEPT_ENCODING";s:17:"gzip, deflate, br";s:20:"HTTP_ACCEPT_LANGUAGE";s:56:"vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2";s:11:"HTTP_COOKIE";s:467:"_csrf-frontend=79cce1028cd8ebcf7ab9f0282b78ce5d360d55c6bb52ee2260883e985aec146fa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22wR0ccCWnKVL6a0HnI2uMKrDRylnhf4gB%22%3B%7D; advanced-frontend=unbkg0t3smt3kpnq2a8cdpn6g0; _identity-frontend=b93ba0e2b8056471f0f2e5f578cf810292a9cdeeb7ba1e102ac90c7ae02a7fd1a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A49%3A%22%5B2068%2C%22qwIdLusRlf62hGqzoWJHNp3MAJA5VuGR%22%2C2592000%5D%22%3B%7D";s:4:"PATH";s:60:"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin";s:16:"SERVER_SIGNATURE";s:64:"<address>Apache Server at system.pre-bit.org Port 443</address>
+";s:15:"SERVER_SOFTWARE";s:6:"Apache";s:11:"SERVER_NAME";s:18:"system.pre-bit.org";s:11:"SERVER_ADDR";s:14:"128.199.68.205";s:11:"SERVER_PORT";s:3:"443";s:11:"REMOTE_ADDR";s:11:"27.67.7.179";s:13:"DOCUMENT_ROOT";s:59:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/web";s:14:"REQUEST_SCHEME";s:5:"https";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:59:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/web";s:12:"SERVER_ADMIN";s:18:"support@bitway.org";s:15:"SCRIPT_FILENAME";s:69:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/web/index.php";s:11:"REMOTE_PORT";s:5:"57574";s:12:"REDIRECT_URL";s:23:"/gethelp/standbygethelp";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.0";s:14:"REQUEST_METHOD";s:4:"POST";s:12:"QUERY_STRING";s:0:"";s:11:"REQUEST_URI";s:23:"/gethelp/standbygethelp";s:11:"SCRIPT_NAME";s:10:"/index.php";s:8:"PHP_SELF";s:10:"/index.php";s:18:"REQUEST_TIME_FLOAT";d:1491021382.0584061;s:12:"REQUEST_TIME";i:1491021382;}s:3:"GET";a:0:{}s:4:"POST";a:0:{}s:6:"COOKIE";a:3:{s:14:"_csrf-frontend";s:140:"79cce1028cd8ebcf7ab9f0282b78ce5d360d55c6bb52ee2260883e985aec146fa:2:{i:0;s:14:"_csrf-frontend";i:1;s:32:"wR0ccCWnKVL6a0HnI2uMKrDRylnhf4gB";}";s:17:"advanced-frontend";s:26:"unbkg0t3smt3kpnq2a8cdpn6g0";s:18:"_identity-frontend";s:161:"b93ba0e2b8056471f0f2e5f578cf810292a9cdeeb7ba1e102ac90c7ae02a7fd1a:2:{i:0;s:18:"_identity-frontend";i:1;s:49:"[2068,"qwIdLusRlf62hGqzoWJHNp3MAJA5VuGR",2592000]";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:0:{}}s:3:"log";a:1:{s:8:"messages";a:24:{i:0;a:5:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1491021382.0632861;i:4;a:0:{}}i:1;a:5:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1491021382.0633299;i:4;a:0:{}}i:2;a:5:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1491021382.0672669;i:4;a:0:{}}i:3;a:5:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1491021382.069916;i:4;a:0:{}}i:4;a:5:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1491021382.07037;i:4;a:0:{}}i:5;a:5:{i:0;s:59:"Request parsed with URL rule: <controller:\w+>/<action:\w+>";i:1;i:8;i:2;s:29:"yii\web\UrlRule::parseRequest";i:3;d:1491021382.0715821;i:4;a:0:{}}i:6;a:5:{i:0;s:41:"Route requested: 'gethelp/standbygethelp'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1491021382.07164;i:4;a:0:{}}i:7;a:5:{i:0;s:36:"Route to run: gethelp/standbygethelp";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1491021382.073729;i:4;a:0:{}}i:8;a:5:{i:0;s:78:"Running action: frontend\controllers\GethelpController::actionStandbygethelp()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1491021382.075489;i:4;a:0:{}}i:9;a:5:{i:0;s:66:"Opening DB connection: mysql:host=localhost;dbname=admin_sysprebit";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1491021382.0819211;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:234;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:12;a:5:{i:0;s:56:"SELECT * FROM `converted` WHERE `object`='standbytimegh'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.0836079;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:234;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:15;a:5:{i:0;s:34:"SHOW FULL COLUMNS FROM `converted`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.084512;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:234;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:18;a:5:{i:0;s:605:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'converted' AND kcu.table_name = 'converted'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.086699;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:234;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:21;a:5:{i:0;s:45:"SELECT * FROM `gh_transfer` WHERE `publish`=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.0884221;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:235;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:24;a:5:{i:0;s:36:"SHOW FULL COLUMNS FROM `gh_transfer`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.0909431;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:235;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:27;a:5:{i:0;s:609:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'gh_transfer' AND kcu.table_name = 'gh_transfer'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.0930021;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:235;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:30;a:5:{i:0;s:43:"SELECT * FROM `gh_transfer` WHERE `id`=5406";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.1213989;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:238;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:33;a:5:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.1228189;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:239;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:36;a:5:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.1256149;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:239;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:39;a:5:{i:0;s:35:"SELECT * FROM `user` WHERE `id`=947";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.1265199;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:239;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:42;a:5:{i:0;s:92:"SELECT * FROM `bitcoin_wallet` WHERE (`type`=1) AND (`publish`=2) ORDER BY `created_at` DESC";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.127023;i:4;a:2:{i:0;a:5:{s:4:"file";s:78:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/common/models/BitcoinWallet.php";s:4:"line";i:70;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:241;s:8:"function";s:18:"findBitcoinaddress";s:5:"class";s:27:"common\models\BitcoinWallet";s:4:"type";s:2:"::";}}}i:45;a:5:{i:0;s:39:"SHOW FULL COLUMNS FROM `bitcoin_wallet`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.1272781;i:4;a:2:{i:0;a:5:{s:4:"file";s:78:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/common/models/BitcoinWallet.php";s:4:"line";i:70;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:241;s:8:"function";s:18:"findBitcoinaddress";s:5:"class";s:27:"common\models\BitcoinWallet";s:4:"type";s:2:"::";}}}i:48;a:5:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'bitcoin_wallet' AND kcu.table_name = 'bitcoin_wallet'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.128159;i:4;a:2:{i:0;a:5:{s:4:"file";s:78:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/common/models/BitcoinWallet.php";s:4:"line";i:70;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:241;s:8:"function";s:18:"findBitcoinaddress";s:5:"class";s:27:"common\models\BitcoinWallet";s:4:"type";s:2:"::";}}}i:51;a:5:{i:0;s:1321:"exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in /var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php:243
+Stack trace:
+#0 /var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php(243): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/var/www/vhosts...', 243, Array)
+#1 [internal function]: frontend\controllers\GethelpController->actionStandbygethelp()
+#2 /var/www/vhosts/pre-bit.org/system.pre-bit.org/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#3 /var/www/vhosts/pre-bit.org/system.pre-bit.org/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 /var/www/vhosts/pre-bit.org/system.pre-bit.org/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('standbygethelp', Array)
+#5 /var/www/vhosts/pre-bit.org/system.pre-bit.org/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('gethelp/standby...', Array)
+#6 /var/www/vhosts/pre-bit.org/system.pre-bit.org/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/web/index.php(18): yii\base\Application->run()
+#8 {main}";i:1;i:1;i:2;s:25:"yii\base\ErrorException:8";i:3;d:1491021382.4608469;i:4;a:0:{}}}}s:9:"profiling";a:3:{s:6:"memory";i:3988232;s:4:"time";d:0.40929889678955078;s:8:"messages";a:28:{i:10;a:5:{i:0;s:66:"Opening DB connection: mysql:host=localhost;dbname=admin_sysprebit";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1491021382.082026;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:234;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:11;a:5:{i:0;s:66:"Opening DB connection: mysql:host=localhost;dbname=admin_sysprebit";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1491021382.0834739;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:234;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:13;a:5:{i:0;s:56:"SELECT * FROM `converted` WHERE `object`='standbytimegh'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.083715;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:234;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:14;a:5:{i:0;s:56:"SELECT * FROM `converted` WHERE `object`='standbytimegh'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.0840721;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:234;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:16;a:5:{i:0;s:34:"SHOW FULL COLUMNS FROM `converted`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.0846691;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:234;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:17;a:5:{i:0;s:34:"SHOW FULL COLUMNS FROM `converted`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.0859151;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:234;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:19;a:5:{i:0;s:605:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'converted' AND kcu.table_name = 'converted'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.0868089;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:234;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:20;a:5:{i:0;s:605:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'converted' AND kcu.table_name = 'converted'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.0875969;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:234;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:22;a:5:{i:0;s:45:"SELECT * FROM `gh_transfer` WHERE `publish`=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.0885329;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:235;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:23;a:5:{i:0;s:45:"SELECT * FROM `gh_transfer` WHERE `publish`=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.090554;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:235;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:25;a:5:{i:0;s:36:"SHOW FULL COLUMNS FROM `gh_transfer`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.091059;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:235;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:26;a:5:{i:0;s:36:"SHOW FULL COLUMNS FROM `gh_transfer`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.0921769;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:235;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:28;a:5:{i:0;s:609:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'gh_transfer' AND kcu.table_name = 'gh_transfer'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.093111;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:235;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:29;a:5:{i:0;s:609:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'gh_transfer' AND kcu.table_name = 'gh_transfer'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.0947809;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:235;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:31;a:5:{i:0;s:43:"SELECT * FROM `gh_transfer` WHERE `id`=5406";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.1215229;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:238;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:32;a:5:{i:0;s:43:"SELECT * FROM `gh_transfer` WHERE `id`=5406";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.1219471;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:238;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:34;a:5:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.1229031;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:239;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:35;a:5:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.124018;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:239;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:37;a:5:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.1257041;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:239;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:38;a:5:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.1262569;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:239;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:40;a:5:{i:0;s:35:"SELECT * FROM `user` WHERE `id`=947";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.12659;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:239;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:41;a:5:{i:0;s:35:"SELECT * FROM `user` WHERE `id`=947";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.126754;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:239;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:43;a:5:{i:0;s:92:"SELECT * FROM `bitcoin_wallet` WHERE (`type`=1) AND (`publish`=2) ORDER BY `created_at` DESC";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.127068;i:4;a:2:{i:0;a:5:{s:4:"file";s:78:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/common/models/BitcoinWallet.php";s:4:"line";i:70;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:241;s:8:"function";s:18:"findBitcoinaddress";s:5:"class";s:27:"common\models\BitcoinWallet";s:4:"type";s:2:"::";}}}i:44;a:5:{i:0;s:92:"SELECT * FROM `bitcoin_wallet` WHERE (`type`=1) AND (`publish`=2) ORDER BY `created_at` DESC";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.1271911;i:4;a:2:{i:0;a:5:{s:4:"file";s:78:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/common/models/BitcoinWallet.php";s:4:"line";i:70;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:241;s:8:"function";s:18:"findBitcoinaddress";s:5:"class";s:27:"common\models\BitcoinWallet";s:4:"type";s:2:"::";}}}i:46;a:5:{i:0;s:39:"SHOW FULL COLUMNS FROM `bitcoin_wallet`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.127327;i:4;a:2:{i:0;a:5:{s:4:"file";s:78:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/common/models/BitcoinWallet.php";s:4:"line";i:70;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:241;s:8:"function";s:18:"findBitcoinaddress";s:5:"class";s:27:"common\models\BitcoinWallet";s:4:"type";s:2:"::";}}}i:47;a:5:{i:0;s:39:"SHOW FULL COLUMNS FROM `bitcoin_wallet`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.127846;i:4;a:2:{i:0;a:5:{s:4:"file";s:78:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/common/models/BitcoinWallet.php";s:4:"line";i:70;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:241;s:8:"function";s:18:"findBitcoinaddress";s:5:"class";s:27:"common\models\BitcoinWallet";s:4:"type";s:2:"::";}}}i:49;a:5:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'bitcoin_wallet' AND kcu.table_name = 'bitcoin_wallet'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.1282389;i:4;a:2:{i:0;a:5:{s:4:"file";s:78:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/common/models/BitcoinWallet.php";s:4:"line";i:70;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:241;s:8:"function";s:18:"findBitcoinaddress";s:5:"class";s:27:"common\models\BitcoinWallet";s:4:"type";s:2:"::";}}}i:50;a:5:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'bitcoin_wallet' AND kcu.table_name = 'bitcoin_wallet'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.128679;i:4;a:2:{i:0;a:5:{s:4:"file";s:78:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/common/models/BitcoinWallet.php";s:4:"line";i:70;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:241;s:8:"function";s:18:"findBitcoinaddress";s:5:"class";s:27:"common\models\BitcoinWallet";s:4:"type";s:2:"::";}}}}}s:2:"db";a:1:{s:8:"messages";a:26:{i:13;a:5:{i:0;s:56:"SELECT * FROM `converted` WHERE `object`='standbytimegh'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.083715;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:234;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:14;a:5:{i:0;s:56:"SELECT * FROM `converted` WHERE `object`='standbytimegh'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.0840721;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:234;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:16;a:5:{i:0;s:34:"SHOW FULL COLUMNS FROM `converted`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.0846691;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:234;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:17;a:5:{i:0;s:34:"SHOW FULL COLUMNS FROM `converted`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.0859151;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:234;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:19;a:5:{i:0;s:605:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'converted' AND kcu.table_name = 'converted'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.0868089;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:234;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:20;a:5:{i:0;s:605:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'converted' AND kcu.table_name = 'converted'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.0875969;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:234;s:8:"function";s:3:"one";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:22;a:5:{i:0;s:45:"SELECT * FROM `gh_transfer` WHERE `publish`=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.0885329;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:235;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:23;a:5:{i:0;s:45:"SELECT * FROM `gh_transfer` WHERE `publish`=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.090554;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:235;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:25;a:5:{i:0;s:36:"SHOW FULL COLUMNS FROM `gh_transfer`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.091059;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:235;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:26;a:5:{i:0;s:36:"SHOW FULL COLUMNS FROM `gh_transfer`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.0921769;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:235;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:28;a:5:{i:0;s:609:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'gh_transfer' AND kcu.table_name = 'gh_transfer'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.093111;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:235;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:29;a:5:{i:0;s:609:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'gh_transfer' AND kcu.table_name = 'gh_transfer'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.0947809;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:235;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}}}i:31;a:5:{i:0;s:43:"SELECT * FROM `gh_transfer` WHERE `id`=5406";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.1215229;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:238;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:32;a:5:{i:0;s:43:"SELECT * FROM `gh_transfer` WHERE `id`=5406";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.1219471;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:238;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:34;a:5:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.1229031;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:239;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:35;a:5:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.124018;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:239;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:37;a:5:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.1257041;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:239;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:38;a:5:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.1262569;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:239;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:40;a:5:{i:0;s:35:"SELECT * FROM `user` WHERE `id`=947";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.12659;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:239;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:41;a:5:{i:0;s:35:"SELECT * FROM `user` WHERE `id`=947";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.126754;i:4;a:1:{i:0;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:239;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:43;a:5:{i:0;s:92:"SELECT * FROM `bitcoin_wallet` WHERE (`type`=1) AND (`publish`=2) ORDER BY `created_at` DESC";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.127068;i:4;a:2:{i:0;a:5:{s:4:"file";s:78:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/common/models/BitcoinWallet.php";s:4:"line";i:70;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:241;s:8:"function";s:18:"findBitcoinaddress";s:5:"class";s:27:"common\models\BitcoinWallet";s:4:"type";s:2:"::";}}}i:44;a:5:{i:0;s:92:"SELECT * FROM `bitcoin_wallet` WHERE (`type`=1) AND (`publish`=2) ORDER BY `created_at` DESC";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.1271911;i:4;a:2:{i:0;a:5:{s:4:"file";s:78:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/common/models/BitcoinWallet.php";s:4:"line";i:70;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:241;s:8:"function";s:18:"findBitcoinaddress";s:5:"class";s:27:"common\models\BitcoinWallet";s:4:"type";s:2:"::";}}}i:46;a:5:{i:0;s:39:"SHOW FULL COLUMNS FROM `bitcoin_wallet`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.127327;i:4;a:2:{i:0;a:5:{s:4:"file";s:78:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/common/models/BitcoinWallet.php";s:4:"line";i:70;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:241;s:8:"function";s:18:"findBitcoinaddress";s:5:"class";s:27:"common\models\BitcoinWallet";s:4:"type";s:2:"::";}}}i:47;a:5:{i:0;s:39:"SHOW FULL COLUMNS FROM `bitcoin_wallet`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.127846;i:4;a:2:{i:0;a:5:{s:4:"file";s:78:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/common/models/BitcoinWallet.php";s:4:"line";i:70;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:241;s:8:"function";s:18:"findBitcoinaddress";s:5:"class";s:27:"common\models\BitcoinWallet";s:4:"type";s:2:"::";}}}i:49;a:5:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'bitcoin_wallet' AND kcu.table_name = 'bitcoin_wallet'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.1282389;i:4;a:2:{i:0;a:5:{s:4:"file";s:78:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/common/models/BitcoinWallet.php";s:4:"line";i:70;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:241;s:8:"function";s:18:"findBitcoinaddress";s:5:"class";s:27:"common\models\BitcoinWallet";s:4:"type";s:2:"::";}}}i:50;a:5:{i:0;s:615:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'bitcoin_wallet' AND kcu.table_name = 'bitcoin_wallet'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1491021382.128679;i:4;a:2:{i:0;a:5:{s:4:"file";s:78:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/common/models/BitcoinWallet.php";s:4:"line";i:70;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:89:"/var/www/vhosts/pre-bit.org/system.pre-bit.org/frontend/controllers/GethelpController.php";s:4:"line";i:241;s:8:"function";s:18:"findBitcoinaddress";s:5:"class";s:27:"common\models\BitcoinWallet";s:4:"type";s:2:"::";}}}}}s:6:"assets";a:0:{}s:4:"mail";a:0:{}s:7:"summary";a:9:{s:3:"tag";s:13:"58df2e46108b6";s:3:"url";s:49:"https://system.pre-bit.org/gethelp/standbygethelp";s:4:"ajax";i:1;s:6:"method";s:4:"POST";s:2:"ip";s:11:"27.67.7.179";s:4:"time";i:1491021382;s:10:"statusCode";i:500;s:8:"sqlCount";i:13;s:9:"mailCount";i:0;}}
