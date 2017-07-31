@@ -1,2 +1,2 @@
-frontend/runtime
-backend/runtime
+frontend/runtime/*
+backend/runtime/*

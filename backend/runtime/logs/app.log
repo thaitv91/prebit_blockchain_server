@@ -42632,3 +42632,1997 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1501330886.039
     'REQUEST_TIME' => 1501330886
 ]
+2017-07-29 12:49:39 [58.187.191.100][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 58.187.191.100
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/UserController.php:130
+2017-07-29 12:49:39 [58.187.191.100][-][-][info][application] $_COOKIE = [
+    'advanced-backend' => 'l2sm14itpt76a74s9sc55jsbl6'
+    '_csrf-backend' => '479a69871a9d9ae9f7b3633860d697786a0f96e39a69fa685867ffe3f675216da:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"CacZZVjJt2EeVCunZsi35b027pQiQ9A5\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/user/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/user/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=l2sm14itpt76a74s9sc55jsbl6; _csrf-backend=479a69871a9d9ae9f7b3633860d697786a0f96e39a69fa685867ffe3f675216da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22CacZZVjJt2EeVCunZsi35b027pQiQ9A5%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '58.187.191.100'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '51433'
+    'REDIRECT_URL' => '/user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501332579.444
+    'REQUEST_TIME' => 1501332579
+]
+2017-07-29 14:41:30 [46.98.14.62][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 46.98.14.62
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/BitcoinwalletController.php:76
+2017-07-29 14:41:29 [46.98.14.62][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '6ia05a2ta7p79lhlis3j0t1bb6'
+    '_csrf-backend' => '68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/bitcoinwallet/walletpacket/1'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/bitcoinwallet/walletpacket/1'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/1'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=6ia05a2ta7p79lhlis3j0t1bb6; _csrf-backend=68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '46.98.14.62'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '35906'
+    'REDIRECT_URL' => '/bitcoinwallet/walletpacket/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/bitcoinwallet/walletpacket/1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501339289.98
+    'REQUEST_TIME' => 1501339289
+]
+2017-07-29 14:41:46 [46.98.14.62][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 46.98.14.62
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/ListgiftController.php:45
+2017-07-29 14:41:46 [46.98.14.62][-][-][info][application] $_COOKIE = [
+    'advanced-backend' => '6ia05a2ta7p79lhlis3j0t1bb6'
+    '_csrf-backend' => '68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/listgift/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/listgift/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/listgift/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/listgift/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=6ia05a2ta7p79lhlis3j0t1bb6; _csrf-backend=68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '46.98.14.62'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '36094'
+    'REDIRECT_URL' => '/listgift/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/listgift/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501339306.772
+    'REQUEST_TIME' => 1501339306
+]
+2017-07-29 14:41:50 [46.98.14.62][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 46.98.14.62
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/BitcoinwalletController.php:76
+2017-07-29 14:41:50 [46.98.14.62][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '6ia05a2ta7p79lhlis3j0t1bb6'
+    '_csrf-backend' => '68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/bitcoinwallet/walletpacket/1'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/bitcoinwallet/walletpacket/1'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/1'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/listgift/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=6ia05a2ta7p79lhlis3j0t1bb6; _csrf-backend=68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '46.98.14.62'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '36094'
+    'REDIRECT_URL' => '/bitcoinwallet/walletpacket/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/bitcoinwallet/walletpacket/1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501339310.847
+    'REQUEST_TIME' => 1501339310
+]
+2017-07-29 14:41:53 [46.98.14.62][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 46.98.14.62
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/BitcoinwalletController.php:76
+2017-07-29 14:41:53 [46.98.14.62][-][-][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '6ia05a2ta7p79lhlis3j0t1bb6'
+    '_csrf-backend' => '68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/bitcoinwallet/walletpacket/2'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/2'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/bitcoinwallet/walletpacket/2'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/2'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=6ia05a2ta7p79lhlis3j0t1bb6; _csrf-backend=68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '46.98.14.62'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '36094'
+    'REDIRECT_URL' => '/bitcoinwallet/walletpacket/2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/bitcoinwallet/walletpacket/2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501339313.447
+    'REQUEST_TIME' => 1501339313
+]
+2017-07-29 14:41:58 [46.98.14.62][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 46.98.14.62
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/UserController.php:130
+2017-07-29 14:41:58 [46.98.14.62][-][-][info][application] $_COOKIE = [
+    'advanced-backend' => '6ia05a2ta7p79lhlis3j0t1bb6'
+    '_csrf-backend' => '68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/user/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/user/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=6ia05a2ta7p79lhlis3j0t1bb6; _csrf-backend=68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '46.98.14.62'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '36094'
+    'REDIRECT_URL' => '/user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501339318.044
+    'REQUEST_TIME' => 1501339318
+]
+2017-07-29 14:42:01 [46.98.14.62][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 46.98.14.62
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/ShmanagementController.php:91
+2017-07-29 14:42:00 [46.98.14.62][-][-][info][application] $_COOKIE = [
+    'advanced-backend' => '6ia05a2ta7p79lhlis3j0t1bb6'
+    '_csrf-backend' => '68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/shmanagement/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/shmanagement/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/shmanagement/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/shmanagement/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=6ia05a2ta7p79lhlis3j0t1bb6; _csrf-backend=68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '46.98.14.62'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '36094'
+    'REDIRECT_URL' => '/shmanagement/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shmanagement/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501339320.063
+    'REQUEST_TIME' => 1501339320
+]
+2017-07-29 14:42:16 [46.98.14.62][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 46.98.14.62
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/ShmanagementController.php:91
+2017-07-29 14:42:14 [46.98.14.62][-][-][info][application] $_GET = [
+    'ShTransferFilter' => [
+        'username' => ''
+        'status' => ''
+        'fromday' => '23-07-2017'
+        'today' => '29-07-2017'
+    ]
+]
+
+$_COOKIE = [
+    'advanced-backend' => '6ia05a2ta7p79lhlis3j0t1bb6'
+    '_csrf-backend' => '68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/shmanagement/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/shmanagement/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/shmanagement/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/shmanagement/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/shmanagement/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=6ia05a2ta7p79lhlis3j0t1bb6; _csrf-backend=68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '46.98.14.62'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '36350'
+    'REDIRECT_URL' => '/shmanagement/index'
+    'REDIRECT_QUERY_STRING' => 'ShTransferFilter%5Busername%5D=&ShTransferFilter%5Bstatus%5D=&ShTransferFilter%5Bfromday%5D=23-07-2017&ShTransferFilter%5Btoday%5D=29-07-2017'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'ShTransferFilter%5Busername%5D=&ShTransferFilter%5Bstatus%5D=&ShTransferFilter%5Bfromday%5D=23-07-2017&ShTransferFilter%5Btoday%5D=29-07-2017'
+    'REQUEST_URI' => '/shmanagement/index?ShTransferFilter%5Busername%5D=&ShTransferFilter%5Bstatus%5D=&ShTransferFilter%5Bfromday%5D=23-07-2017&ShTransferFilter%5Btoday%5D=29-07-2017'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501339334.701
+    'REQUEST_TIME' => 1501339334
+]
+2017-07-29 14:42:20 [46.98.14.62][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 46.98.14.62
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/GhmanagementController.php:84
+2017-07-29 14:42:20 [46.98.14.62][-][-][info][application] $_COOKIE = [
+    'advanced-backend' => '6ia05a2ta7p79lhlis3j0t1bb6'
+    '_csrf-backend' => '68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/ghmanagement/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/ghmanagement/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/ghmanagement/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/ghmanagement/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/shmanagement/index?ShTransferFilter%5Busername%5D=&ShTransferFilter%5Bstatus%5D=&ShTransferFilter%5Bfromday%5D=23-07-2017&ShTransferFilter%5Btoday%5D=29-07-2017'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=6ia05a2ta7p79lhlis3j0t1bb6; _csrf-backend=68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '46.98.14.62'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '36350'
+    'REDIRECT_URL' => '/ghmanagement/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ghmanagement/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501339340.401
+    'REQUEST_TIME' => 1501339340
+]
+2017-07-29 14:42:24 [46.98.14.62][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 46.98.14.62
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/TokenmanagementController.php:133
+2017-07-29 14:42:24 [46.98.14.62][-][-][info][application] $_COOKIE = [
+    'advanced-backend' => '6ia05a2ta7p79lhlis3j0t1bb6'
+    '_csrf-backend' => '68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/tokenmanagement/gettoken'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/tokenmanagement/gettoken'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/tokenmanagement/gettoken'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/tokenmanagement/gettoken'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/ghmanagement/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=6ia05a2ta7p79lhlis3j0t1bb6; _csrf-backend=68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '46.98.14.62'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '36350'
+    'REDIRECT_URL' => '/tokenmanagement/gettoken'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tokenmanagement/gettoken'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501339344.229
+    'REQUEST_TIME' => 1501339344
+]
+2017-07-29 14:42:25 [46.98.14.62][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 46.98.14.62
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/TokenmanagementController.php:68
+2017-07-29 14:42:25 [46.98.14.62][-][-][info][application] $_COOKIE = [
+    'advanced-backend' => '6ia05a2ta7p79lhlis3j0t1bb6'
+    '_csrf-backend' => '68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/tokenmanagement/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/tokenmanagement/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/tokenmanagement/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/tokenmanagement/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/tokenmanagement/gettoken'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=6ia05a2ta7p79lhlis3j0t1bb6; _csrf-backend=68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '46.98.14.62'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '36350'
+    'REDIRECT_URL' => '/tokenmanagement/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tokenmanagement/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501339345.205
+    'REQUEST_TIME' => 1501339345
+]
+2017-07-29 14:42:29 [46.98.14.62][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 46.98.14.62
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/TokenmanagementController.php:106
+2017-07-29 14:42:29 [46.98.14.62][-][-][info][application] $_COOKIE = [
+    'advanced-backend' => '6ia05a2ta7p79lhlis3j0t1bb6'
+    '_csrf-backend' => '68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/tokenmanagement/transfer'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/tokenmanagement/transfer'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/tokenmanagement/transfer'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/tokenmanagement/transfer'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/tokenmanagement/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=6ia05a2ta7p79lhlis3j0t1bb6; _csrf-backend=68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '46.98.14.62'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '36350'
+    'REDIRECT_URL' => '/tokenmanagement/transfer'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tokenmanagement/transfer'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501339349.005
+    'REQUEST_TIME' => 1501339349
+]
+2017-07-29 14:42:33 [46.98.14.62][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 46.98.14.62
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/BitcoinwalletController.php:76
+2017-07-29 14:42:33 [46.98.14.62][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '6ia05a2ta7p79lhlis3j0t1bb6'
+    '_csrf-backend' => '68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/bitcoinwallet/walletpacket/1'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/bitcoinwallet/walletpacket/1'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/1'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/tokenmanagement/transfer'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=6ia05a2ta7p79lhlis3j0t1bb6; _csrf-backend=68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '46.98.14.62'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '36350'
+    'REDIRECT_URL' => '/bitcoinwallet/walletpacket/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/bitcoinwallet/walletpacket/1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501339353.105
+    'REQUEST_TIME' => 1501339353
+]
+2017-07-29 14:42:34 [46.98.14.62][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Trying to get property of non-object' in /var/www/prebit/backend/views/cashwithdraw/index.php:52
+Stack trace:
+#0 /var/www/prebit/backend/views/cashwithdraw/index.php(52): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/var/www/prebit...', 52, Array)
+#1 [internal function]: yii\base\View->{closure}(Object(common\models\Cashwithdraw), 33, 0, Object(yii\grid\DataColumn))
+#2 /var/www/prebit/vendor/yiisoft/yii2/grid/DataColumn.php(211): call_user_func(Object(Closure), Object(common\models\Cashwithdraw), 33, 0, Object(yii\grid\DataColumn))
+#3 /var/www/prebit/vendor/yiisoft/yii2/grid/DataColumn.php(225): yii\grid\DataColumn->getDataCellValue(Object(common\models\Cashwithdraw), 33, 0)
+#4 /var/www/prebit/vendor/yiisoft/yii2/grid/Column.php(108): yii\grid\DataColumn->renderDataCellContent(Object(common\models\Cashwithdraw), 33, 0)
+#5 /var/www/prebit/vendor/yiisoft/yii2/grid/GridView.php(504): yii\grid\Column->renderDataCell(Object(common\models\Cashwithdraw), 33, 0)
+#6 /var/www/prebit/vendor/yiisoft/yii2/grid/GridView.php(473): yii\grid\GridView->renderTableRow(Object(common\models\Cashwithdraw), 33, 0)
+#7 /var/www/prebit/vendor/yiisoft/yii2/grid/GridView.php(344): yii\grid\GridView->renderTableBody()
+#8 /var/www/prebit/vendor/yiisoft/yii2/widgets/BaseListView.php(151): yii\grid\GridView->renderItems()
+#9 /var/www/prebit/vendor/yiisoft/yii2/grid/GridView.php(313): yii\widgets\BaseListView->renderSection('{items}')
+#10 /var/www/prebit/vendor/yiisoft/yii2/widgets/BaseListView.php(126): yii\grid\GridView->renderSection('{items}')
+#11 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#12 /var/www/prebit/vendor/yiisoft/yii2/widgets/BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '{pager}\n{items}...')
+#13 /var/www/prebit/vendor/yiisoft/yii2/grid/GridView.php(288): yii\widgets\BaseListView->run()
+#14 /var/www/prebit/vendor/yiisoft/yii2/base/Widget.php(102): yii\grid\GridView->run()
+#15 /var/www/prebit/backend/views/cashwithdraw/index.php(130): yii\base\Widget::widget(Array)
+#16 /var/www/prebit/vendor/yiisoft/yii2/base/View.php(325): require('/var/www/prebit...')
+#17 /var/www/prebit/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/var/www/prebit...', Array)
+#18 /var/www/prebit/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/prebit...', Array, Object(backend\controllers\CashwithdrawController))
+#19 /var/www/prebit/vendor/yiisoft/yii2/base/Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\CashwithdrawController))
+#20 /var/www/prebit/backend/controllers/CashwithdrawController.php(89): yii\base\Controller->render('index', Array)
+#21 [internal function]: backend\controllers\CashwithdrawController->actionIndex()
+#22 /var/www/prebit/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#23 /var/www/prebit/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#24 /var/www/prebit/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index', Array)
+#25 /var/www/prebit/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('cashwithdraw/in...', Array)
+#26 /var/www/prebit/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 /var/www/prebit/backend/web/index.php(18): yii\base\Application->run()
+#28 {main}
+2017-07-29 14:42:34 [46.98.14.62][-][-][info][application] $_COOKIE = [
+    'advanced-backend' => '6ia05a2ta7p79lhlis3j0t1bb6'
+    '_csrf-backend' => '68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/cashwithdraw/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/cashwithdraw/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/cashwithdraw/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/cashwithdraw/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=6ia05a2ta7p79lhlis3j0t1bb6; _csrf-backend=68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '46.98.14.62'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '36350'
+    'REDIRECT_URL' => '/cashwithdraw/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/cashwithdraw/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501339354.889
+    'REQUEST_TIME' => 1501339354
+]
+2017-07-29 14:44:09 [46.98.14.62][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 46.98.14.62
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/BitcoinwalletController.php:76
+2017-07-29 14:44:09 [46.98.14.62][-][-][info][application] $_GET = [
+    'id' => '6'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '6ia05a2ta7p79lhlis3j0t1bb6'
+    '_csrf-backend' => '68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/bitcoinwallet/walletpacket/6'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/6'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/bitcoinwallet/walletpacket/6'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/6'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=6ia05a2ta7p79lhlis3j0t1bb6; _csrf-backend=68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '46.98.14.62'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '37258'
+    'REDIRECT_URL' => '/bitcoinwallet/walletpacket/6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/bitcoinwallet/walletpacket/6'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501339449.862
+    'REQUEST_TIME' => 1501339449
+]
+2017-07-29 14:44:14 [46.98.14.62][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 46.98.14.62
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/BitcoinwalletController.php:144
+2017-07-29 14:44:13 [46.98.14.62][-][-][info][application] $_GET = [
+    'id' => '37'
+]
+
+$_COOKIE = [
+    'advanced-backend' => '6ia05a2ta7p79lhlis3j0t1bb6'
+    '_csrf-backend' => '68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/bitcoinwallet/view/37'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/view/37'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/bitcoinwallet/view/37'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/view/37'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=6ia05a2ta7p79lhlis3j0t1bb6; _csrf-backend=68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '46.98.14.62'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '37258'
+    'REDIRECT_URL' => '/bitcoinwallet/view/37'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/bitcoinwallet/view/37'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501339453.97
+    'REQUEST_TIME' => 1501339453
+]
+2017-07-29 14:44:19 [46.98.14.62][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 46.98.14.62
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/SettingController.php:175
+2017-07-29 14:44:19 [46.98.14.62][-][-][info][application] $_COOKIE = [
+    'advanced-backend' => '6ia05a2ta7p79lhlis3j0t1bb6'
+    '_csrf-backend' => '68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/setting/general'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/setting/general'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/setting/general'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/setting/general'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/bitcoinwallet/view/37'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=6ia05a2ta7p79lhlis3j0t1bb6; _csrf-backend=68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '46.98.14.62'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '37404'
+    'REDIRECT_URL' => '/setting/general'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/setting/general'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501339459.74
+    'REQUEST_TIME' => 1501339459
+]
+2017-07-29 14:44:31 [46.98.14.62][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 46.98.14.62
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/TokenmanagementController.php:68
+2017-07-29 14:44:30 [46.98.14.62][-][-][info][application] $_COOKIE = [
+    'advanced-backend' => '6ia05a2ta7p79lhlis3j0t1bb6'
+    '_csrf-backend' => '68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/tokenmanagement/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/tokenmanagement/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/tokenmanagement/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/tokenmanagement/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/setting/general'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=6ia05a2ta7p79lhlis3j0t1bb6; _csrf-backend=68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '46.98.14.62'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '37522'
+    'REDIRECT_URL' => '/tokenmanagement/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tokenmanagement/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501339470.992
+    'REQUEST_TIME' => 1501339470
+]
+2017-07-29 14:44:34 [46.98.14.62][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 46.98.14.62
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/ShmanagementController.php:91
+2017-07-29 14:44:33 [46.98.14.62][-][-][info][application] $_COOKIE = [
+    'advanced-backend' => '6ia05a2ta7p79lhlis3j0t1bb6'
+    '_csrf-backend' => '68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/shmanagement/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/shmanagement/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/shmanagement/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/shmanagement/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/tokenmanagement/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=6ia05a2ta7p79lhlis3j0t1bb6; _csrf-backend=68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '46.98.14.62'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '37522'
+    'REDIRECT_URL' => '/shmanagement/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shmanagement/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501339473.228
+    'REQUEST_TIME' => 1501339473
+]
+2017-07-29 14:44:38 [46.98.14.62][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 46.98.14.62
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/UserController.php:130
+2017-07-29 14:44:37 [46.98.14.62][-][-][info][application] $_COOKIE = [
+    'advanced-backend' => '6ia05a2ta7p79lhlis3j0t1bb6'
+    '_csrf-backend' => '68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/user/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/user/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/shmanagement/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=6ia05a2ta7p79lhlis3j0t1bb6; _csrf-backend=68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '46.98.14.62'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '37524'
+    'REDIRECT_URL' => '/user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501339477.994
+    'REQUEST_TIME' => 1501339477
+]
+2017-07-29 14:44:38 [46.98.14.62][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 46.98.14.62
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/ShmanagementController.php:91
+2017-07-29 14:44:36 [46.98.14.62][-][-][info][application] $_COOKIE = [
+    'advanced-backend' => '6ia05a2ta7p79lhlis3j0t1bb6'
+    '_csrf-backend' => '68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/shmanagement/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/shmanagement/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/shmanagement/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/shmanagement/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/shmanagement/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=6ia05a2ta7p79lhlis3j0t1bb6; _csrf-backend=68772955524fc4ed93c779b41de5cde47ecf2086a03aff07d7863413e3ff11cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22yCkFo39lsyXSfp0oj_WJDX4icwgFmEj9%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '46.98.14.62'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '37522'
+    'REDIRECT_URL' => '/shmanagement/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shmanagement/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501339476.884
+    'REQUEST_TIME' => 1501339476
+]
+2017-07-30 03:43:03 [198.46.87.194][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request ".well-known/pki-validation/B4E4617E85AFA6334CDCE9C8C88386DD.txt".' in /var/www/prebit/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /var/www/prebit/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('.well-known/pki...', Array)
+#1 /var/www/prebit/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/prebit/backend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/prebit/vendor/yiisoft/yii2/web/Application.php:99
+Stack trace:
+#0 /var/www/prebit/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/prebit/backend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2017-07-30 03:43:03 [198.46.87.194][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 198.46.87.194
+    in /var/www/prebit/backend/views/layouts/main.php:101
+2017-07-30 03:43:03 [198.46.87.194][-][-][info][application] $_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/.well-known/pki-validation/B4E4617E85AFA6334CDCE9C8C88386DD.txt'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/.well-known/pki-validation/B4E4617E85AFA6334CDCE9C8C88386DD.txt'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/.well-known/pki-validation/B4E4617E85AFA6334CDCE9C8C88386DD.txt'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/.well-known/pki-validation/B4E4617E85AFA6334CDCE9C8C88386DD.txt'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_USER_AGENT' => 'COMODO DCV'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '198.46.87.194'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '45485'
+    'REDIRECT_URL' => '/.well-known/pki-validation/B4E4617E85AFA6334CDCE9C8C88386DD.txt'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/.well-known/pki-validation/B4E4617E85AFA6334CDCE9C8C88386DD.txt'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501386183.682
+    'REQUEST_TIME' => 1501386183
+]
+2017-07-30 11:13:22 [198.46.87.194][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request ".well-known/pki-validation/8299B2C05DD3FF5A44EFDE8F8A039192.txt".' in /var/www/prebit/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /var/www/prebit/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('.well-known/pki...', Array)
+#1 /var/www/prebit/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/prebit/backend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/prebit/vendor/yiisoft/yii2/web/Application.php:99
+Stack trace:
+#0 /var/www/prebit/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/prebit/backend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2017-07-30 11:13:22 [198.46.87.194][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 198.46.87.194
+    in /var/www/prebit/backend/views/layouts/main.php:101
+2017-07-30 11:13:22 [198.46.87.194][-][-][info][application] $_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/.well-known/pki-validation/8299B2C05DD3FF5A44EFDE8F8A039192.txt'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/.well-known/pki-validation/8299B2C05DD3FF5A44EFDE8F8A039192.txt'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/.well-known/pki-validation/8299B2C05DD3FF5A44EFDE8F8A039192.txt'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/.well-known/pki-validation/8299B2C05DD3FF5A44EFDE8F8A039192.txt'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_USER_AGENT' => 'COMODO DCV'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '198.46.87.194'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '36871'
+    'REDIRECT_URL' => '/.well-known/pki-validation/8299B2C05DD3FF5A44EFDE8F8A039192.txt'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/.well-known/pki-validation/8299B2C05DD3FF5A44EFDE8F8A039192.txt'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501413202.744
+    'REQUEST_TIME' => 1501413202
+]
+2017-07-30 11:15:49 [58.187.191.100][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 58.187.191.100
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/UserController.php:130
+2017-07-30 11:15:49 [58.187.191.100][-][-][info][application] $_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/user/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/user/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '58.187.191.100'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '55153'
+    'REDIRECT_URL' => '/user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501413349.236
+    'REQUEST_TIME' => 1501413349
+]
+2017-07-30 11:15:53 [58.187.191.100][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 58.187.191.100
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/BitcoinwalletController.php:76
+2017-07-30 11:15:53 [58.187.191.100][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf-backend' => 'fe21f4ccd2af92446fd2537807ec006b3658239bf62cff1636d2bb0fc0390252a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"bUdd-gjp4pP0u4llueJXD22_KzKvVH2b\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/bitcoinwallet/walletpacket/1'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/bitcoinwallet/walletpacket/1'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/1'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2'
+    'HTTP_COOKIE' => '_csrf-backend=fe21f4ccd2af92446fd2537807ec006b3658239bf62cff1636d2bb0fc0390252a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22bUdd-gjp4pP0u4llueJXD22_KzKvVH2b%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '58.187.191.100'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '55152'
+    'REDIRECT_URL' => '/bitcoinwallet/walletpacket/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/bitcoinwallet/walletpacket/1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501413353.875
+    'REQUEST_TIME' => 1501413353
+]
+2017-07-30 11:16:04 [58.187.191.100][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 58.187.191.100
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/BitcoinwalletController.php:144
+2017-07-30 11:16:04 [58.187.191.100][-][-][info][application] $_GET = [
+    'id' => '41'
+]
+
+$_COOKIE = [
+    '_csrf-backend' => 'fe21f4ccd2af92446fd2537807ec006b3658239bf62cff1636d2bb0fc0390252a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"bUdd-gjp4pP0u4llueJXD22_KzKvVH2b\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/bitcoinwallet/view/41'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/view/41'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/bitcoinwallet/view/41'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/view/41'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2'
+    'HTTP_COOKIE' => '_csrf-backend=fe21f4ccd2af92446fd2537807ec006b3658239bf62cff1636d2bb0fc0390252a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22bUdd-gjp4pP0u4llueJXD22_KzKvVH2b%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '58.187.191.100'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '55167'
+    'REDIRECT_URL' => '/bitcoinwallet/view/41'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/bitcoinwallet/view/41'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501413364.753
+    'REQUEST_TIME' => 1501413364
+]
+2017-07-30 11:20:25 [58.187.191.100][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 58.187.191.100
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/BitcoinwalletController.php:144
+2017-07-30 11:20:25 [58.187.191.100][-][-][info][application] $_GET = [
+    'id' => '41'
+]
+
+$_POST = [
+    '_csrf-backend' => 'MW1adkk2SGJTOD4SZFEiEgUdCkY8AiQORAgQLg0Eej16FxEAH356AA=='
+    'TransferBitcoin' => [
+        'address' => '1Bq5GvAVC6zHizpZvryws3VhAa6v38B51g'
+        'amount' => '0.009'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf-backend' => 'fe21f4ccd2af92446fd2537807ec006b3658239bf62cff1636d2bb0fc0390252a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"bUdd-gjp4pP0u4llueJXD22_KzKvVH2b\";}'
+    'advanced-backend' => 'ma7sv5oqpfvimlmiirt24isr13'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'success' => 1
+    ]
+    'success' => 'Withdraw fail!'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/bitcoinwallet/view/41'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/view/41'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/bitcoinwallet/view/41'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/view/41'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '172'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://backend.pre-bit.org'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/bitcoinwallet/view/41'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2'
+    'HTTP_COOKIE' => '_csrf-backend=fe21f4ccd2af92446fd2537807ec006b3658239bf62cff1636d2bb0fc0390252a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22bUdd-gjp4pP0u4llueJXD22_KzKvVH2b%22%3B%7D; advanced-backend=ma7sv5oqpfvimlmiirt24isr13'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '58.187.191.100'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '55282'
+    'REDIRECT_URL' => '/bitcoinwallet/view/41'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/bitcoinwallet/view/41'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501413625.191
+    'REQUEST_TIME' => 1501413625
+]
+2017-07-30 11:20:49 [58.187.191.100][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 58.187.191.100
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/BitcoinwalletController.php:144
+2017-07-30 11:20:49 [58.187.191.100][-][-][info][application] $_GET = [
+    'id' => '41'
+]
+
+$_POST = [
+    '_csrf-backend' => 'ZjEuLnpKbGkEZEpKVy0GGVJBfh4PfgAFE1Rkdj54XjYtS2VYLAJeCw=='
+    'TransferBitcoin' => [
+        'address' => '1Bq5GvAVC6zHizpZvryws3VhAa6v38B51g'
+        'amount' => '0.005'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf-backend' => 'fe21f4ccd2af92446fd2537807ec006b3658239bf62cff1636d2bb0fc0390252a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"bUdd-gjp4pP0u4llueJXD22_KzKvVH2b\";}'
+    'advanced-backend' => 'ma7sv5oqpfvimlmiirt24isr13'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'success' => 1
+    ]
+    'success' => 'Withdraw successfully!'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/bitcoinwallet/view/41'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/view/41'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/bitcoinwallet/view/41'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/view/41'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '172'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://backend.pre-bit.org'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/bitcoinwallet/view/41'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2'
+    'HTTP_COOKIE' => '_csrf-backend=fe21f4ccd2af92446fd2537807ec006b3658239bf62cff1636d2bb0fc0390252a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22bUdd-gjp4pP0u4llueJXD22_KzKvVH2b%22%3B%7D; advanced-backend=ma7sv5oqpfvimlmiirt24isr13'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '58.187.191.100'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '55294'
+    'REDIRECT_URL' => '/bitcoinwallet/view/41'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/bitcoinwallet/view/41'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501413649.311
+    'REQUEST_TIME' => 1501413649
+]
+2017-07-30 11:25:42 [58.187.191.100][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 58.187.191.100
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/UserController.php:130
+2017-07-30 11:25:42 [58.187.191.100][-][-][info][application] $_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/user/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/user/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,*'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '58.187.191.100'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '55425'
+    'REDIRECT_URL' => '/user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501413942.435
+    'REQUEST_TIME' => 1501413942
+]
+2017-07-30 11:25:42 [120.138.68.219][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 120.138.68.219
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/UserController.php:130
+2017-07-30 11:25:42 [120.138.68.219][-][-][info][application] $_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/user/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/user/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1667.0 Safari/537.36 _zbot'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CACHE_CONTROL' => 'max-age=259200'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '120.138.68.219'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '58916'
+    'REDIRECT_URL' => '/user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501413942.574
+    'REQUEST_TIME' => 1501413942
+]
+2017-07-30 11:53:09 [58.187.191.100][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 58.187.191.100
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/GhmanagementController.php:84
+2017-07-30 11:53:09 [58.187.191.100][-][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'fe21f4ccd2af92446fd2537807ec006b3658239bf62cff1636d2bb0fc0390252a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"bUdd-gjp4pP0u4llueJXD22_KzKvVH2b\";}'
+    'advanced-backend' => 'ma7sv5oqpfvimlmiirt24isr13'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/ghmanagement/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/ghmanagement/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/ghmanagement/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/ghmanagement/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/bitcoinwallet/view/41'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2'
+    'HTTP_COOKIE' => '_csrf-backend=fe21f4ccd2af92446fd2537807ec006b3658239bf62cff1636d2bb0fc0390252a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22bUdd-gjp4pP0u4llueJXD22_KzKvVH2b%22%3B%7D; advanced-backend=ma7sv5oqpfvimlmiirt24isr13'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '58.187.191.100'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '56080'
+    'REDIRECT_URL' => '/ghmanagement/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ghmanagement/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501415589.345
+    'REQUEST_TIME' => 1501415589
+]
+2017-07-30 11:53:14 [58.187.191.100][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 58.187.191.100
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/BitcoinwalletController.php:76
+2017-07-30 11:53:14 [58.187.191.100][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf-backend' => 'fe21f4ccd2af92446fd2537807ec006b3658239bf62cff1636d2bb0fc0390252a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"bUdd-gjp4pP0u4llueJXD22_KzKvVH2b\";}'
+    'advanced-backend' => 'ma7sv5oqpfvimlmiirt24isr13'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/bitcoinwallet/walletpacket/1'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/bitcoinwallet/walletpacket/1'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/1'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/ghmanagement/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2'
+    'HTTP_COOKIE' => '_csrf-backend=fe21f4ccd2af92446fd2537807ec006b3658239bf62cff1636d2bb0fc0390252a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22bUdd-gjp4pP0u4llueJXD22_KzKvVH2b%22%3B%7D; advanced-backend=ma7sv5oqpfvimlmiirt24isr13'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '58.187.191.100'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '56080'
+    'REDIRECT_URL' => '/bitcoinwallet/walletpacket/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/bitcoinwallet/walletpacket/1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501415594.107
+    'REQUEST_TIME' => 1501415594
+]
+2017-07-30 11:53:38 [120.138.68.219][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 120.138.68.219
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/UserController.php:130
+2017-07-30 11:53:38 [120.138.68.219][-][-][info][application] $_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/user/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/user/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1667.0 Safari/537.36 _zbot'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CACHE_CONTROL' => 'max-age=259200'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '120.138.68.219'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '59375'
+    'REDIRECT_URL' => '/user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501415618.8
+    'REQUEST_TIME' => 1501415618
+]
+2017-07-30 14:32:49 [58.187.191.100][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 58.187.191.100
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/UserController.php:130
+2017-07-30 14:32:49 [58.187.191.100][-][-][info][application] $_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/user/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/user/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '58.187.191.100'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '56681'
+    'REDIRECT_URL' => '/user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501425169.376
+    'REQUEST_TIME' => 1501425169
+]
+2017-07-30 14:33:10 [58.187.191.100][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 58.187.191.100
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/BitcoinwalletController.php:76
+2017-07-30 14:33:10 [58.187.191.100][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    '_csrf-backend' => 'e66f9708039f3a6009c3a6e8eb00cc4a326280163d82668e411b53079441050ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-XwGpQ4KxR3uG2AHbpYSMMfckVcTx73M\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/bitcoinwallet/walletpacket/1'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/1'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/bitcoinwallet/walletpacket/1'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/1'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/user/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2'
+    'HTTP_COOKIE' => '_csrf-backend=e66f9708039f3a6009c3a6e8eb00cc4a326280163d82668e411b53079441050ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-XwGpQ4KxR3uG2AHbpYSMMfckVcTx73M%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '58.187.191.100'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '56706'
+    'REDIRECT_URL' => '/bitcoinwallet/walletpacket/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/bitcoinwallet/walletpacket/1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501425190.024
+    'REQUEST_TIME' => 1501425190
+]
+2017-07-30 14:33:16 [58.187.191.100][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 58.187.191.100
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/BitcoinwalletController.php:144
+2017-07-30 14:33:16 [58.187.191.100][-][-][info][application] $_GET = [
+    'id' => '41'
+]
+
+$_COOKIE = [
+    '_csrf-backend' => 'e66f9708039f3a6009c3a6e8eb00cc4a326280163d82668e411b53079441050ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-XwGpQ4KxR3uG2AHbpYSMMfckVcTx73M\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/bitcoinwallet/view/41'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/view/41'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/bitcoinwallet/view/41'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/bitcoinwallet/view/41'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/bitcoinwallet/walletpacket/1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2'
+    'HTTP_COOKIE' => '_csrf-backend=e66f9708039f3a6009c3a6e8eb00cc4a326280163d82668e411b53079441050ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-XwGpQ4KxR3uG2AHbpYSMMfckVcTx73M%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '58.187.191.100'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '56710'
+    'REDIRECT_URL' => '/bitcoinwallet/view/41'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/bitcoinwallet/view/41'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501425196.178
+    'REQUEST_TIME' => 1501425196
+]
+2017-07-30 16:09:05 [58.187.191.100][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 58.187.191.100
+    in /var/www/prebit/backend/views/layouts/main.php:101
+    in /var/www/prebit/backend/controllers/ShmanagementController.php:91
+2017-07-30 16:09:03 [58.187.191.100][-][-][info][application] $_COOKIE = [
+    '_csrf-backend' => 'e66f9708039f3a6009c3a6e8eb00cc4a326280163d82668e411b53079441050ea:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-XwGpQ4KxR3uG2AHbpYSMMfckVcTx73M\";}'
+    'advanced-backend' => 'rf8r5bk5v5qagmvb16fbvhbjq4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/shmanagement/index'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/shmanagement/index'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/shmanagement/index'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/shmanagement/index'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://backend.pre-bit.org/bitcoinwallet/view/41'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'vi-VN,vi;q=0.8,fr-FR;q=0.6,fr;q=0.4,en-US;q=0.2,en;q=0.2'
+    'HTTP_COOKIE' => '_csrf-backend=e66f9708039f3a6009c3a6e8eb00cc4a326280163d82668e411b53079441050ea%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-XwGpQ4KxR3uG2AHbpYSMMfckVcTx73M%22%3B%7D; advanced-backend=rf8r5bk5v5qagmvb16fbvhbjq4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '58.187.191.100'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '59219'
+    'REDIRECT_URL' => '/shmanagement/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shmanagement/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501430943.935
+    'REQUEST_TIME' => 1501430943
+]
+2017-07-31 03:43:03 [198.46.87.194][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request ".well-known/pki-validation/BFED1C1112D84A3486464239CAB12ABF.txt".' in /var/www/prebit/vendor/yiisoft/yii2/base/Module.php:460
+Stack trace:
+#0 /var/www/prebit/vendor/yiisoft/yii2/web/Application.php(87): yii\base\Module->runAction('.well-known/pki...', Array)
+#1 /var/www/prebit/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/prebit/backend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/prebit/vendor/yiisoft/yii2/web/Application.php:99
+Stack trace:
+#0 /var/www/prebit/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/prebit/backend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2017-07-31 03:43:03 [198.46.87.194][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 198.46.87.194
+    in /var/www/prebit/backend/views/layouts/main.php:101
+2017-07-31 03:43:03 [198.46.87.194][-][-][info][application] $_SERVER = [
+    'REDIRECT_SCRIPT_URL' => '/.well-known/pki-validation/BFED1C1112D84A3486464239CAB12ABF.txt'
+    'REDIRECT_SCRIPT_URI' => 'http://backend.pre-bit.org/.well-known/pki-validation/BFED1C1112D84A3486464239CAB12ABF.txt'
+    'REDIRECT_STATUS' => '200'
+    'SCRIPT_URL' => '/.well-known/pki-validation/BFED1C1112D84A3486464239CAB12ABF.txt'
+    'SCRIPT_URI' => 'http://backend.pre-bit.org/.well-known/pki-validation/BFED1C1112D84A3486464239CAB12ABF.txt'
+    'HTTP_HOST' => 'backend.pre-bit.org'
+    'HTTP_USER_AGENT' => 'COMODO DCV'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Ubuntu) Server at backend.pre-bit.org Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Ubuntu)'
+    'SERVER_NAME' => 'backend.pre-bit.org'
+    'SERVER_ADDR' => '104.131.157.135'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '198.46.87.194'
+    'DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/prebit/backend/web'
+    'SERVER_ADMIN' => 'backendprebit@example.com'
+    'SCRIPT_FILENAME' => '/var/www/prebit/backend/web/index.php'
+    'REMOTE_PORT' => '61310'
+    'REDIRECT_URL' => '/.well-known/pki-validation/BFED1C1112D84A3486464239CAB12ABF.txt'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/.well-known/pki-validation/BFED1C1112D84A3486464239CAB12ABF.txt'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1501472583.342
+    'REQUEST_TIME' => 1501472583
+]
