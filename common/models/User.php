@@ -88,7 +88,7 @@ class User extends ActiveRecord implements IdentityInterface
     public function rules()
     {
         return [
-            [['username', 'email', 'fullname','password_hash', 'phone', 'country_id', 'bank_name', 'bank_cn', 'bank_id', 'bank_user_fullname'], 'required'],
+            [['username', 'email', 'fullname','password_hash', 'phone', 'country_id'], 'required'],
             [['downline', 'shstatus', 'block', 'timeblock', 'sex', 'passport_id'], 'integer'],
             //[['id', 'sex', 'birthday', 'phone', 'country_id', 'state_id', 'city_id', 'level', 'level_updated_at', 'charity', 'charity_updated_at', 'wallet', 'manager_bonus', 'referral_bonus', 'token', 'referral_user_id', 'status', 'publish', 'created_at', 'updated_at'], 'integer'],
             //[['address', 'state_id', 'city_id', 'birthday', 'country_id'], 'string'],
@@ -144,10 +144,6 @@ class User extends ActiveRecord implements IdentityInterface
             'updated_at' => 'Updated At',
             'total_withdraw' => 'Total Withdraw',
             'has_withdrawn'  => 'Has Withdrawn',
-            'bank_name' => 'Bank Name',
-            'bank_cn' => 'Bank Branch',
-            'bank_id' => 'Bank ID',
-            'bank_user_fullname' => 'Bank User Fullname'
         ];
     }
 
