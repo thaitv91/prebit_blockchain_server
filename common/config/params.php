@@ -4,7 +4,7 @@ return [
     'supportEmail' => 'support@pre-bit.org',
     'verifyEmail' => 'bitwayvn@gmail.com',
     'user.passwordResetTokenExpire' => 3600,
-    'url_file' => 'systemthai.pre-bit.org/',
+    'url_file' => 'system.pre-bit.org/',
     'fee' => '0.0000',
     'fee_gh' => '0.0005',
     'blockchain_url' =>  'http://blockchain.info/tx/',

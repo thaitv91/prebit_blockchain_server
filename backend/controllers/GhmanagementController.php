@@ -86,12 +86,11 @@ class GhmanagementController extends BackendController
 
     public function actionApprove()
     {   
-        //define("IN_WALLET", true);
+        define("IN_WALLET", true);
         $address = $_GET['bitid'];
         $amount = $_GET['amount'];
         $id = $_GET['id'];
         $gh = GhTransfer::findOne($id);
-        //var_dump($gh->publish); die();
         $BitcoinWallet = new BitcoinWallet;
         if(!empty($gh)){
             //get address bitcoin user gethelp
@@ -103,12 +102,10 @@ class GhmanagementController extends BackendController
             if($account_wallettoken > $gh->amount){
                 $transfer_bitcoin = $BitcoinWallet->transfersBitcoin(BitcoinWallet::TYPE_ShAndGhwallet, $addressbitcoin_user, $gh->amount);
 
-                //if($transfer_bitcoin){
-                    $gh->publish = GhTransfer::PUBLISH_ACTIVE;
-                    $gh->save();
-                    Yii::$app->getSession()->setFlash('success', 'Approve successfully, Waiting for Tranfer Bitcoin!');
-                    return $this->redirect(Yii::$app->request->referrer);
-                //}
+                $gh->publish = GhTransfer::PUBLISH_ACTIVE;
+                $gh->save();
+                Yii::$app->getSession()->setFlash('success', 'Approve successfully, Waiting for Tranfer Bitcoin!');
+                return $this->redirect(Yii::$app->request->referrer);
             } else {
                 Yii::$app->session->setFlash('error', 'Your balance not enough!');
                 return $this->redirect(Yii::$app->request->referrer);

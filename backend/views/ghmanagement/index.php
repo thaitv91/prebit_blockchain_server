@@ -120,7 +120,7 @@ $pending_count =  GhTransfer::find()->where(['publish' => GhTransfer::PUBLISH_NO
                                     // $status = '<a href="/ghmanagement/approve?bitid=123456&amount='. $data->amount . '">Approve</a>';
                                     $status = '';
                                     if($data->publish != GhTransfer::PUBLISH_ACTIVE){
-                                        $status = '<a href="/ghmanagement/approve?id='. $data->id .'&bitid='. $address_btc[0] .'&amount='. $data->amount . '">Approve</a>';
+                                        $status = '<a onclick="return confirm(\'Are you sure you want to Approve?\')" href="/ghmanagement/approve?id='. $data->id .'&bitid='. $address_btc[0] .'&amount='. $data->amount . '">Approve</a>';
                                     }
                                     
                                     return $status;

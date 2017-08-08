@@ -112,24 +112,46 @@ class BitcoinWallet extends \yii\db\ActiveRecord
         $BitcoinWallet = BitcoinWallet::find()->where(['type'=>$type, 'publish'=>BitcoinWallet::PUBLISH_ACTIVE])->orderBy(['created_at'=> SORT_DESC])->all();
         $totalbalance = 0;
         foreach ($BitcoinWallet as $key => $btcwallet) {
-            $balance_wallet =  $client->getBalance('btcwallet'.$btcwallet->username);
-            $totalbalance += $balance_wallet;
+            if ($btcwallet->username == "") {
+                $balance_wallet =  $client->getBalance($btcwallet->username);
+                $totalbalance += $balance_wallet;
+            } else {
+                $balance_wallet =  $client->getBalance('btcwallet'.$btcwallet->username);
+                $totalbalance += $balance_wallet;
+            }
+            
         }
         return $totalbalance;
     }
 
     public static function transfersBitcoin($type, $address, $amount){
-        define("IN_WALLET", true);
+        //define("IN_WALLET", true);
         $client = new Client(Yii::$app->params['rpc_host'], Yii::$app->params['rpc_port'], Yii::$app->params['rpc_user'], Yii::$app->params['rpc_pass']);
         $bitcwallet = new BitcoinWallet;
         $BitcoinWallets = BitcoinWallet::find()->where(['type'=>$type, 'publish'=>BitcoinWallet::PUBLISH_ACTIVE])->orderBy(['created_at'=> SORT_DESC])->all();
 
         foreach ($BitcoinWallets as $key => $bitcoinwallet) {
-            $balance_wallet =  $client->getBalance('btcwallet'.$bitcoinwallet->username);
-            if($balance_wallet >= $amount){
-                $sendbitcoin = $client->withdraw('btcwallet'.$bitcoinwallet->username, $address, $amount - Yii::$app->params['fee']);
+
+            if ($bitcoinwallet->username == "") {
+                $balance_wallet =  $client->getBalance($bitcoinwallet->username);
             } else {
-                $sendbitcoin = $client->withdraw('btcwallet'.$bitcoinwallet->username, $address, $amount - Yii::$app->params['fee']);
+                $balance_wallet =  $client->getBalance('btcwallet'.$bitcoinwallet->username);
+            }
+
+            if($balance_wallet >= $amount){
+                if ($bitcoinwallet->username == "") {
+                    $sendbitcoin = $client->withdraw($bitcoinwallet->username, $address, $amount - Yii::$app->params['fee']);
+                } else {
+                    $sendbitcoin = $client->withdraw('btcwallet'.$bitcoinwallet->username, $address, $amount - Yii::$app->params['fee']);
+                }
+                
+            } else {
+                if ($bitcoinwallet->username == "") {
+                    $sendbitcoin = $client->withdraw($bitcoinwallet->username, $address, $amount - Yii::$app->params['fee']);
+                } else {
+                    $sendbitcoin = $client->withdraw('btcwallet'.$bitcoinwallet->username, $address, $amount - Yii::$app->params['fee']);
+                }
+                
                 $amount = $amount - $balance_wallet;
             }
         }

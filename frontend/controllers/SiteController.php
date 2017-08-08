@@ -388,7 +388,7 @@ class SiteController extends FrontendController
                     return $this->render('confirmregister', [
                         'email' => $user->email,
                     ]);
-                }    
+                }
             }
         }
 
