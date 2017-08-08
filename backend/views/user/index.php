@@ -161,21 +161,17 @@ $this->params['breadcrumbs'][] = $this->title;
 
                             [
                                 'class' => 'yii\grid\ActionColumn', 
-                                'template' => '<div class="hidden-sm hidden-xs btn-group">{view}</div><div class="hidden-md hidden-lg"><div class="inline pos-rel"><button data-position="auto" data-toggle="dropdown" class="btn btn-minier btn-primary dropdown-toggle"><i class="ace-icon fa fa-cog icon-only bigger-110"></i></button><ul class="dropdown-menu dropdown-only-icon dropdown-yellow dropdown-menu-right dropdown-caret dropdown-close"><li>{view}</li<li>{update}</li<li>{delete}</li<ul><div></div> ',
                                 'contentOptions' => ['class' => 'text-right'],
                                 'buttons' => [
                                     'view' => function($url, $data){
                                         return Html::a('<i class="fa fa-eye" aria-hidden="true"></i>', '/user/view/'.$data['id'], ['title' => Yii::t('app', 'View'),'data-pjax' => '0', 'class'=>'btn btn-xs btn-success'
                                         ]);
                                     },
-                                    // 'update' => function ($url,$data) {
-                                    //     return Html::a('<i class="ace-icon fa fa-pencil bigger-120"></i>', '/user/update/'.$data['id'], ['title' => Yii::t('app', 'Update'),'data-pjax' => '0', 'class'=>'btn btn-xs btn-info'
-                                    //     ]);
-                                    // },
-                                    // 'delete' => function ($url,$data) {
-                                    //     return Html::a('<i class="ace-icon fa fa-trash-o bigger-120"></i>', '/user/delete/'.$data['id'],['title' => Yii::t('app', 'Delete'),'data-pjax' => '0','data-method'=>'post','data-confirm'=>'Are you sure you want to delete this item?','class'=>'btn btn-xs btn-warning'
-                                    //     ]);
-                                    //},
+
+                                    'delete' => function($url, $data){
+                                        return Html::a('<i class="fa fa-cog" aria-hidden="true"></i>', '/user/deposit/'.$data['id'], ['title' => Yii::t('app', 'Deposit'),'data-pjax' => '0', 'class'=>'btn btn-xs btn-success'
+                                        ]);
+                                    },
                                 ],
                             ],
                         ],

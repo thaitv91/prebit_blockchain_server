@@ -257,6 +257,22 @@ class UserController extends BackendController
         }
     }
 
+    public function actionDeposit($id) {
+        $model = ShTransfer::find()->where(['user_id' => $id])->one();
+
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            $request = Yii::$app->request;
+            $amount = $request->post('ShTransfer');
+            $model->amount = $amount ["amount"];
+            $model->save();
+            return $this->redirect(['deposit', 'id' => $model->user_id]);
+        } else {
+            return $this->render('deposit', [
+                'model' => $model,
+            ]);
+        }
+    }
+
     public function actionDelete($id)
     {
         $this->findModel($id)->delete();
