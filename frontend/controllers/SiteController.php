@@ -145,8 +145,7 @@ class SiteController extends FrontendController
         $this->layout = 'login';
 		$session = Yii::$app->session; 
 		
-		
-         if (!Yii::$app->user->isGuest && $session['is_auth_tw'] = '0') {
+        if (!Yii::$app->user->isGuest && $session['is_auth_tw'] = '0') {
             return $this->goHome();
         } 
 		$session['is_auth_tw'] = '0';
@@ -162,16 +161,16 @@ class SiteController extends FrontendController
                 $userDetails->google_auth_code = $_POST['google_secret_code'];
                  $userDetails->save(false);
 
-            }else{
+            }else {
                 if($userDetails['fa_setting']==1){
 					$session['is_auth_tw'] = '1';
                     return $this->render('device_confirmations',['email'=>$userDetails['email'],'secret'=>$secret]);
-                }else{
+                }else {
                     if (!empty($_GET['redirect'])) {
-                return $this->redirect(Yii::$app->convert->url($_GET['redirect']));
-            } else {
-                return $this->goBack();
-            }
+                        return $this->redirect(Yii::$app->convert->url($_GET['redirect']));
+                    } else {
+                        return $this->goBack();
+                    }
                 }
             }
 

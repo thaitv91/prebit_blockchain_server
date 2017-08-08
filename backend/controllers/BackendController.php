@@ -12,10 +12,10 @@ use yii\db\Collection;
 
 class BackendController extends Controller {
 
-    // public function init() {
-    //     if (\Yii::$app->user->isGuest)
-    //         $this->redirect('/site/login');
-    // }
+    public function init() {
+        if (\Yii::$app->user->isGuest && Yii::$app->requestedRoute != "site/login")
+            $this->redirect('/site/login');
+    }
 
 //    public function behaviors() {
 //        $behaviors['access'] = [
