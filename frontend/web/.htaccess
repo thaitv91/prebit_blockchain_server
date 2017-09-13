@@ -2,7 +2,10 @@ DirectoryIndex index.php
 
 Options +FollowSymLinks
 IndexIgnore */*
+
 RewriteEngine on
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # if a directory or a file exists, use it directly
 RewriteCond %{REQUEST_FILENAME} !-f

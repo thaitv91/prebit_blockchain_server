@@ -39,7 +39,7 @@ return [
         ],
 		'urlManager' => [
             'class' => 'yii\web\UrlManager',
-            'baseUrl' => 'http://system.pre-bit.org/',
+            'baseUrl' => 'https://system.pre-bit.org/',
             'showScriptName' => false, // Disable index.php
             'enablePrettyUrl' => true, // Disable r= routes
             'rules' => [
