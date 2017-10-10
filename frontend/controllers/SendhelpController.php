@@ -275,7 +275,7 @@ class SendhelpController extends FrontendController
 
         $sh_transfer = ShTransfer::findOne($id_sh);
 
-        $profit_packet = $sh_transfer->getProfitdaily($sh_transfer->id);
+        $profit_packet = $sh_transfer->getProfitdailyUserlevel($sh_transfer->id);
 
         $daily_profit = $sh_transfer->amount * $profit_packet / 100 / 86400;
         $amount_profit = (time()- $sh_transfer->inc_days) * $daily_profit;
