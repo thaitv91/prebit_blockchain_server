@@ -193,6 +193,20 @@ class BitwalletController extends FrontendController
                 setText('Hello '.$user->username.'!')->
                 setHtml($mailtemplate->loadMailtemplate($user->username, $contentmail));
             $res = $mailin->send();
+
+            // send email mandrill
+            $mandrill = new \nickcv\mandrill\Mailer(['apikey'=>Yii::$app->params['apikey']]);
+                    
+            $data = [
+                'fullname' => $user->fullname,
+                'confirm' => '<p style="margin:0">You requested to withdraw '.$amount.' BTC from PreBit. OTP code for this transaction is: <b>'.$Withdrawbitcoin->otp_code.'</b>. Please use this code to complete your action.<p>'
+            ];
+            
+            $result = $mandrill->compose('sendotp', ['data' => $data])
+                ->setTo($model->email)
+                ->setSubject('Reset Password PreBit account')
+                ->send();
+
             if($res){
                 return $Withdrawbitcoin->id;
             } 

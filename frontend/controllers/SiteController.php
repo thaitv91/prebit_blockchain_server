@@ -27,6 +27,7 @@ use common\models\Converted;
 use common\models\BlockList;
 use common\models\BitcoinWallet;
 use common\models\ShTransfer;
+use Mandrill;
 
 /**
  * Site controller
@@ -382,6 +383,19 @@ class SiteController extends FrontendController
                         setHtml($mailtemplate->loadMailtemplate($user->fullname, $contentmail));
                     $res = $mailin->send();
 
+                    // send mail mandrill
+                    $mandrill = new \nickcv\mandrill\Mailer(['apikey'=>Yii::$app->params['apikey']]);
+                    
+                    $data = [
+                        'fullname' => $user->fullname,
+                        'confirm' => '<a href="'.Yii::$app->params['url_file'].'site/confirmregister?email=' . $user->email . '&auth_key=' . $user->auth_key.'">Confirm my email address →</a>'
+                    ];
+                    
+                    $result = $mandrill->compose('register', ['data' => $data])
+                        ->setTo($user->email)
+                        ->setSubject('Confirm your PreBit account')
+                        ->send();
+
                     // create bitcoin address
                     $client->getNewAddress($user->username);
                     return $this->render('confirmregister', [
@@ -485,6 +499,19 @@ class SiteController extends FrontendController
                 setText('Hello '.$model->email.'!')->
                 setHtml($mailtemplate->loadMailtemplate($username->fullname, $contentmail));
             $res = $mailin->send();
+
+            // send email mandrill
+            $mandrill = new \nickcv\mandrill\Mailer(['apikey'=>Yii::$app->params['apikey']]);
+                    
+            $data = [
+                'fullname' => $username->fullname,
+                'confirm' => '<a href="' . Yii::$app->params['url_file'] . 'site/changepassword?email=' . $model->email . '&auth_key=' . $authKey . '">Reset password →</a>'
+            ];
+            
+            $result = $mandrill->compose('ResetPassword', ['data' => $data])
+                ->setTo($model->email)
+                ->setSubject('Reset Password PreBit account')
+                ->send();
 
             if($res){
                 return $this->render('confirmpasswordreset');
