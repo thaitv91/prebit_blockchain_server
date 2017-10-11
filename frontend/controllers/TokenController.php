@@ -188,6 +188,20 @@ class TokenController extends FrontendController
                 setText('Hello '.$usersender->username.'!')->
                 setHtml($mailtemplate->loadMailtemplate($usersender->username, $contentmail));
             $res = $mailin->send();
+
+            // send email mandrill
+            $mandrill = new \nickcv\mandrill\Mailer(['apikey'=>Yii::$app->params['apikey']]);
+                    
+            $data = [
+                'fullname' => $usersender->fullname,
+                'confirm' => '<p style="margin:0">You requested to transfer '.$amounttoken.' Token(s) to '.$TokenRequest->getUser($reciever->id)->username.'. Your OTP code is: <b>'.$TokenRequest->otp_code.'</b>. Please use this code to complete your action.<p>'
+            ];
+            
+            $result = $mandrill->compose('sendotp', ['data' => $data])
+                ->setTo($usersender->email)
+                ->setSubject('Send OTP')
+                ->send();
+            
             return $TokenRequest->id;
         }    
         
