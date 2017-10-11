@@ -387,6 +387,20 @@ class UserController extends FrontendController
                     $model->passport = $unique_name;
                     $model->updated_at = time();
                     if($model->save()){
+                        $user = User::findOne(Yii::$app->user->identity->id);
+
+                        // send mail mandrill
+                        $mandrill = new \nickcv\mandrill\Mailer(['apikey'=>Yii::$app->params['apikey']]);
+                        
+                        $data = [
+                            'fullname' => $user->fullname,
+                        ];
+                        
+                        $result = $mandrill->compose('UserVerify', ['data' => $data])
+                            ->setTo(['support@pre-bit.org', 'clairewill1204@gmail.com'])
+                            ->setSubject('User Upload Passport')
+                            ->send();
+
                         return $model->passport;
                     }
                 } else {
@@ -444,6 +458,21 @@ class UserController extends FrontendController
                     $model->identification = $unique_name;
                     $model->updated_at = time();
                     if($model->save()){
+
+                        $user = User::findOne(Yii::$app->user->identity->id);
+                        
+                        // send mail mandrill
+                        $mandrill = new \nickcv\mandrill\Mailer(['apikey'=>Yii::$app->params['apikey']]);
+                        
+                        $data = [
+                            'fullname' => $user->fullname,
+                        ];
+                        
+                        $result = $mandrill->compose('UserVerify', ['data' => $data])
+                            ->setTo(['support@pre-bit.org', 'clairewill1204@gmail.com'])
+                            ->setSubject('User Upload Identification')
+                            ->send();
+
                         return $model->identification;
                     }
                 } else {
@@ -501,6 +530,21 @@ class UserController extends FrontendController
                     $model->selfie = $unique_name;
                     $model->updated_at = time();
                     if($model->save()){
+
+                        $user = User::findOne(Yii::$app->user->identity->id);
+                        
+                        // send mail mandrill
+                        $mandrill = new \nickcv\mandrill\Mailer(['apikey'=>Yii::$app->params['apikey']]);
+                        
+                        $data = [
+                            'fullname' => $user->username,
+                        ];
+                        
+                        $result = $mandrill->compose('UserVerify', ['data' => $data])
+                            ->setTo(['support@pre-bit.org', 'clairewill1204@gmail.com'])
+                            ->setSubject('User Upload Selfie')
+                            ->send();
+
                         return $model->selfie;
                     }
                 } else {
