@@ -21,7 +21,8 @@ use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\helpers\Url;
-
+use Mandrill;
+use \nickcv\mandrill\Mailer;
 /**
  * UserController implements the CRUD actions for User model.
  */
@@ -379,6 +380,20 @@ class UserController extends BackendController
                 setText('Hello '.$model->fullname.'!')->
                 setHtml($mailtemplate->loadMailtemplate($model->fullname, $contentmail));
             $res = $mailin->send();
+
+            // send mail mandrill
+            $mandrill = new \nickcv\mandrill\Mailer(['apikey'=>Yii::$app->params['apikey']]);
+            
+            $data = [
+                'fullname' => $model->fullname,
+            ];
+            
+            $result = $mandrill->compose('verify', ['data' => $data])
+                ->setTo($model->email)
+                ->setSubject('Your account has been verified')
+                ->send();
+
+            return $model->selfie;
             if($res){
                 return ['ok'];
             }
@@ -510,7 +525,7 @@ class UserController extends BackendController
 
         foreach ($users as $user) {
             $address_btc = $client->getAddressList($user->username);
-             echo "user: " . $user->username . " -> address: " . $address_btc[0] . "<br />";
+            //echo "user: " . $user->username . " -> address: " . $address_btc[0] . "<br />";
             //var_dump($address_btc); die();
             if (! $address_btc) {
                 // create bitcoin address
@@ -521,6 +536,28 @@ class UserController extends BackendController
             }
             
         }
+
+    }
+
+    public function actionMail() {
+         $mandrill = new \nickcv\mandrill\Mailer(['apikey'=>'I6T6ky2SpAIazH-3JQZKAw']);
+        
+        //  $result = $mandrill->compose('test')
+        //         ->setTo('thaitv91@gmail.com')
+        //         ->setSubject('test email')
+        //         ->send();
+
+
+        //$mandrill = new \nickcv\mandrill\Mailer(['apikey'=>Yii::$app->params['apikey']]);
+                    
+        $data = [
+            'fullname' => 'Thai Tran',
+            'confirm' => '<a style="text-decoration:none;color: #FFF;background-color: #1fcf93;padding:10px 16px;font-weight:bold;margin-right:10px;text-align:center;cursor:pointer;display: inline-block;border-bottom:2px solid #1ab07d;font-weight:400;font-size:18px;" href="">Confirm my email address →</a>'
+        ];
+        $result = $mandrill->compose('register', ['data' => $data])
+            ->setTo('thaitv91@gmail.com')
+            ->setSubject('Confirm your PreBit account')
+            ->send();
 
     }
 }
