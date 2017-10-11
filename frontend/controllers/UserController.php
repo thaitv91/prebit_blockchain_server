@@ -393,7 +393,7 @@ class UserController extends FrontendController
                         $mandrill = new \nickcv\mandrill\Mailer(['apikey'=>Yii::$app->params['apikey']]);
                         
                         $data = [
-                            'fullname' => $user->usename,
+                            'fullname' => $user->username,
                         ];
                         
                         $result = $mandrill->compose('UserVerify', ['data' => $data])
@@ -465,7 +465,7 @@ class UserController extends FrontendController
                         $mandrill = new \nickcv\mandrill\Mailer(['apikey'=>Yii::$app->params['apikey']]);
                         
                         $data = [
-                            'fullname' => $user->usename,
+                            'fullname' => $user->username,
                         ];
                         
                         $result = $mandrill->compose('UserVerify', ['data' => $data])
