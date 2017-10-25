@@ -6,6 +6,10 @@ use common\models\CharityProgram;
 use common\models\CharityDonors;
 
 $this->title = 'Member Dashboard - PreBit';
+$bitcoin_rate = file_get_contents('https://blockchain.info/tobtc?currency=USD&value=1');
+if (isset($_GET['debug'])) {
+    var_dump($bitcoin_rate); die();
+}
 ?>
 
 <table width="100%" height="100">
@@ -23,8 +27,9 @@ $this->title = 'Member Dashboard - PreBit';
                                     <div class="row">
                                         <div class="text-box col-lg-8">
                                             <p class="maindata">Wallet</p>
-                                            
+                                            <h2><span data-duration="3000" data-value="<?=number_format($balance_btc /$bitcoin_rate, 8);?>" class="animate-number"><?=number_format($balance_btc/$bitcoin_rate, 8);?> $</span></h2>
                                             <h2><span data-duration="3000" data-value="<?=number_format($balance_btc, 8);?>" class="animate-number"><?=number_format($balance_btc, 8);?> BTC</span></h2>
+                                            
                                         </div>
                                         <div class="col-lg-4 icon-btc icon-wallet hidden-xs">
                                             <img src="<?=Yii::$app->params['site_url'];?>images/icon-wallet.png">
@@ -39,7 +44,8 @@ $this->title = 'Member Dashboard - PreBit';
                                     <div class="row">
                                         <div class="text-box col-lg-8">
                                             <p class="maindata">Profit</p>
-                                            <h2><span data-duration="3000" data-value="<?=$user->wallet;?>" class="animate-number"><?=number_format($user->wallet, 8);?> BTC</span></h2>
+                                            <h2><span data-duration="3000" data-value="<?=$user->wallet;?>" class="animate-number"><?=number_format($user->wallet, 8);?> $</span></h2>
+                                            <h2><span data-duration="3000" data-value="<?=$user->wallet * $bitcoin_rate;?>" class="animate-number"><?=number_format($user->wallet * $bitcoin_rate, 8)?> BTC</span></h2>
                                         </div>
                                         <div class="col-lg-4 icon-btc icon-blance hidden-xs">
                                             <img src="<?=Yii::$app->params['site_url'];?>images/icon-blance.png">
@@ -54,7 +60,8 @@ $this->title = 'Member Dashboard - PreBit';
                                     <div class="row">
                                         <div class="text-box col-lg-8">
                                             <p class="maindata">Bonus</p>
-                                            <h2><span data-duration="3000" data-value="<?=$user->manager_bonus + $user->referral_bonus ;?>" class="animate-number"><?=number_format( ($user->manager_bonus + $user->referral_bonus) , 8) ;?> BTC</span></h2>
+                                            <h2><span data-duration="3000" data-value="<?=$user->manager_bonus + $user->referral_bonus ;?>" class="animate-number"><?=number_format( ($user->manager_bonus + $user->referral_bonus) , 8) ;?> $</span></h2>
+                                            <h2><span data-duration="3000" data-value="<?= ($user->manager_bonus + $user->referral_bonus) * $bitcoin_rate ;?>" class="animate-number"><?=number_format( ($user->manager_bonus + $user->referral_bonus) * $bitcoin_rate , 8) ;?> BTC</span></h2>
                                         </div>
                                         <div class="col-lg-4 icon-btc icon-bonus hidden-xs">
                                             <img src="<?=Yii::$app->params['site_url'];?>images/icon-bonus.png">
@@ -70,7 +77,8 @@ $this->title = 'Member Dashboard - PreBit';
                                     <div class="row">
                                         <div class="text-box col-lg-8">
                                             <p class="maindata">Total Earning</p>
-                                            <h2><span data-duration="3000" data-value="<?=$user->manager_bonus + $user->referral_bonus ;?>" class="animate-number"><?=number_format( ($user->wallet + $user->manager_bonus + $user->referral_bonus + $user->has_withdrawn) , 8) ;?> BTC</span></h2>
+                                            <h2><span data-duration="3000" data-value="<?=$user->manager_bonus + $user->referral_bonus ;?>" class="animate-number"><?=number_format( ($user->wallet + $user->manager_bonus + $user->referral_bonus + $user->has_withdrawn) , 8) ;?> $</span></h2>
+                                            <h2><span data-duration="3000" data-value="<?=$user->manager_bonus + $user->referral_bonus ;?>" class="animate-number"><?=number_format( ($user->wallet + $user->manager_bonus + $user->referral_bonus + $user->has_withdrawn)*$bitcoin_rate , 8) ;?> BTC</span></h2>
                                         </div>
                                         <div class="col-lg-4 icon-btc icon-bonus hidden-xs">
                                             <img src="<?=Yii::$app->params['site_url'];?>images/icon-total.png">
@@ -105,7 +113,7 @@ $this->title = 'Member Dashboard - PreBit';
                                         <div class="col-xs-8 col-sm-12">
                                             <div class="title-btc">
                                                 <div class="sh-left">
-                                                    <h1><?=$value->amount?> BTC</h1>
+                                                    <h1><?=$value->amount?> $</h1>
                                                     <!--<p>ID: <?=Yii::$app->params['prefix_id'] + $value->id?></p>-->
                                                 </div>
                                                 <div class="sh-right">

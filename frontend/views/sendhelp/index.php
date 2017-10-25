@@ -36,7 +36,7 @@ $this->title = 'Deposit - PreBit';
                                     <div class="row">
                                         <div class="col-xs-8 col-sm-12">
                                             <div class="sh-left">
-                                                <h1><?=$value->amount?> BTC</h1>
+                                                <h1><?=$value->amount?> $</h1>
                                                 <!--<p>ID: <?=Yii::$app->params['prefix_id'] + $value->id?></p>-->
                                             </div><!-- /.sh-left -->
                                             <div class="sh-right">
@@ -146,7 +146,6 @@ $this->title = 'Deposit - PreBit';
             <div class="bg-dark-gray">
                 <div class="title-bar-add-new-sh">
                     <h3>Deposit</h3>
-                    <p>Mininum Deposit amount is 0.1 BTC</p>
                 </div>
                 <div class="">
                     <div class="content-add-new-sh">
@@ -163,7 +162,7 @@ $this->title = 'Deposit - PreBit';
                                     <?= Yii::$app->session->getFlash('success') ?>
                                 </div>
                             <?php endif; ?>
-                            <?= $form->field($sendhelpTransfer, 'amount', ['template' => '<div class="pos-re">{input}<span class="form-control-feedback" aria-hidden="true">BTC</span>{hint}{error}</div>'])->textInput(['type' => 'number', 'placeholder' => 'Amount', 'class' => 'form-control', 'step' => '0.01'])->label(false) ?>
+                            <?= $form->field($sendhelpTransfer, 'amount', ['template' => '<div class="pos-re">{input}<span class="form-control-feedback" aria-hidden="true">$</span>{hint}</div>'])->textInput(['type' => 'number', 'placeholder' => 'Amount', 'class' => 'form-control', 'step' => '1'])->label(false) ?>
                             
                             <div class="pull-left pad0mobi">
                                 <a class="btn btn-reset">Requires <b><span id="tokenforthissendhelp">0</span></b> Fee</a>
@@ -224,7 +223,7 @@ $this->title = 'Deposit - PreBit';
                                 'headerOptions' => ['class' => 'tr-dark'],
                                 'contentOptions' => ['class' => 'text-left'],
                                 'value' => function($data) {
-                                return  $data->amount.' BTC';
+                                return  $data->amount.' $';
                                 }
                             ],
                             [
@@ -233,7 +232,7 @@ $this->title = 'Deposit - PreBit';
                                 'headerOptions' => ['class' => 'tr-dark'],
                                 'contentOptions' => ['class' => 'text-left'],
                                 'value' => function($data) {
-                                    return  number_format($data->getProfit($data->id), 8).' BTC';
+                                    return  number_format($data->getProfit($data->id), 8).' $';
                                 }
                             ],
                             [
@@ -301,6 +300,8 @@ foreach ($active_sh as $key => $value) {
 $('.Withdraw_profit').click(function(){
     var id_sh = $(this).attr('data')
     var id_user = $(this).attr('val')
+    console.log(id_sh);
+    console.log(id_user);
     var conf = confirm('".Yii::$app->languages->getLanguage()['ntf_are_you_sure_you_want_to_withdraw']."?');
     if (conf){
         $.ajax({
@@ -309,7 +310,8 @@ $('.Withdraw_profit').click(function(){
             url:'/sendhelp/withdrawprofit', 
             data: {id_sh:id_sh, id_user:id_user}, 
             success: function (data) {
-                $('.withdraw_alert_p').html('* '+data+' ".Yii::$app->languages->getLanguage()['ntf_btc_has_been_credited_to_your_main_balance']."');
+                console.log(data);
+                $('.withdraw_alert_p').html('* '+data+' $".Yii::$app->languages->getLanguage()['ntf_btc_has_been_credited_to_your_main_balance']."');
                 $('#withdraw_modal').modal('show');
             }
         });
@@ -332,7 +334,7 @@ $('.Withdraw_profit').click(function(){
                 url:'/sendhelp/withdrawcapital', 
                 data: {id_sh:id_sh, id_user:id_user}, 
                 success: function (data) {
-                    $('.withdraw_alert_p').html('* ".Yii::$app->languages->getLanguage()['ntf_you_have_just_withdrawn_profit_and_capital']." = '+data+' BTC');
+                    $('.withdraw_alert_p').html('* ".Yii::$app->languages->getLanguage()['ntf_you_have_just_withdrawn_profit_and_capital']." = '+data+' $');
                     $('#withdraw_modal').modal('show');
                 }
             });

@@ -39,7 +39,7 @@ class SendhelpController extends FrontendController
         $model = new ShTransfer;
         $sendhelpTransfer = new SendhelpTransfer;
         $BitcoinWallet = new BitcoinWallet;
-
+        $bitcoin_rate = file_get_contents('https://blockchain.info/tobtc?currency=USD&value=1');
         //check shtransfer completed
         $model->checkallShtransfer;
             
@@ -92,8 +92,9 @@ class SendhelpController extends FrontendController
                 Yii::$app->getSession()->setFlash('error', Yii::$app->languages->getLanguage()['you_already_have_the_maximum_number_allowed_sh'].'!');
                 return $this->render('index', ['sendhelpTransfer'=>$sendhelpTransfer, 'active_sh'=>$active_sh, 'complete_sh'=>$complete_sh, 'dataProvider' => $dataProvider, 'amount_in_month' => $amountsh->amountsh, 'amount_can_sh' => $amountsh->amountsh - $total_amount]);
             }
+            // @TODO: Testing after
             // check bitcoind wallet
-    		if($amount > $btc){
+    		if($amount > ($btc / $bitcoin_rate) ){
     			Yii::$app->getSession()->setFlash('error', Yii::$app->languages->getLanguage()['your_bitcoin_wallet_balance_is_not_enough_to_perform_this_action'].'!');
                 return $this->render('index', ['sendhelpTransfer'=>$sendhelpTransfer, 'active_sh'=>$active_sh, 'complete_sh'=>$complete_sh, 'dataProvider' => $dataProvider, 'amount_in_month' => $amountsh->amountsh, 'amount_can_sh' => $amountsh->amountsh - $total_amount]);
     		}
@@ -152,10 +153,14 @@ class SendhelpController extends FrontendController
             //****************************************************************//
 
             //get bitcoin wallet min amount
+            // @TODO: Testing after
             $address_wallettoken = $BitcoinWallet->findBitcoinaddress(BitcoinWallet::TYPE_ShAndGhwallet, 'min');
             //send bitcoin to SH/GH bitcoin wallet
-            $sendbitcoin = $client->withdraw($user->username, $address_wallettoken, $amount);
+            // @TODO: Testing after
+            $amount_btc = $amount * $bitcoin_rate;
+            $sendbitcoin = $client->withdraw($user->username, $address_wallettoken, $amount_btc);
             if($sendbitcoin){
+            //if(true){
                 Yii::$app->getSession()->setFlash('success', Yii::$app->languages->getLanguage()['send_help_completed_successfully'].'!');
             }else{
                 Yii::$app->getSession()->setFlash('error', Yii::$app->languages->getLanguage()['send_help_failed'].'!');
