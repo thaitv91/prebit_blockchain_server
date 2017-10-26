@@ -249,7 +249,13 @@ class UserController extends BackendController
     {
         $model = $this->findModel($id);
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+
+        if ($model->load(Yii::$app->request->post())) {
+            $data = Yii::$app->request->post();
+            
+            $model->referral_bonus = $data['User']['referral_bonus'];
+            $model->manager_bonus = $data['User']['manager_bonus'];
+            $model->save();
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('update', [
@@ -532,7 +538,7 @@ class UserController extends BackendController
                 echo "creating address for " . $user->username . "<br />";
                 $client->getNewAddress($user->username);
                 $address_btc_new = $client->getAddressList($user->username);
-                echo "user: " . $user->username . " -> address: " . $address_btc_new[0] . "<br />";
+                //echo "user: " . $user->username . " -> address: " . $address_btc_new[0] . "<br />";
             }
             
         }
