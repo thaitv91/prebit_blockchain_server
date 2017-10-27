@@ -85,7 +85,7 @@ class SendhelpController extends FrontendController
             //get token for this sendhelp
             $tokenforsh = $sendhelpTransfer->getTokenamount($amount);
             //get packet snedhelp from amount sendhelp
-            $packet = ShPacket::find()->where(['<', 'min_amount', (float)$amount])->andWhere(['>=', 'max_amount', (float)$amount])->orderBy(['max_amount' => SORT_ASC])->one();
+            $packet = ShPacket::find()->where(['<=', 'min_amount', (float)$amount])->andWhere(['>=', 'max_amount', (float)$amount])->orderBy(['max_amount' => SORT_ASC])->one();
             
             //check amount sh permited in this month
             if( (!empty($active_sh)) && (count($active_sh) >= $sh_permitted->amount_sh) ){
@@ -94,10 +94,10 @@ class SendhelpController extends FrontendController
             }
             // @TODO: Testing after
             // check bitcoind wallet
-    		if($amount > ($btc / $bitcoin_rate) ){
-    			Yii::$app->getSession()->setFlash('error', Yii::$app->languages->getLanguage()['your_bitcoin_wallet_balance_is_not_enough_to_perform_this_action'].'!');
-                return $this->render('index', ['sendhelpTransfer'=>$sendhelpTransfer, 'active_sh'=>$active_sh, 'complete_sh'=>$complete_sh, 'dataProvider' => $dataProvider, 'amount_in_month' => $amountsh->amountsh, 'amount_can_sh' => $amountsh->amountsh - $total_amount]);
-    		}
+    		// if($amount > ($btc / $bitcoin_rate) ){
+    		// 	Yii::$app->getSession()->setFlash('error', Yii::$app->languages->getLanguage()['your_bitcoin_wallet_balance_is_not_enough_to_perform_this_action'].'!');
+      //           return $this->render('index', ['sendhelpTransfer'=>$sendhelpTransfer, 'active_sh'=>$active_sh, 'complete_sh'=>$complete_sh, 'dataProvider' => $dataProvider, 'amount_in_month' => $amountsh->amountsh, 'amount_can_sh' => $amountsh->amountsh - $total_amount]);
+    		// }
 
             // check token from amount sendhelp
             if($tokenforsh > $token){
@@ -159,8 +159,8 @@ class SendhelpController extends FrontendController
             // @TODO: Testing after
             $amount_btc = $amount * $bitcoin_rate;
             $sendbitcoin = $client->withdraw($user->username, $address_wallettoken, $amount_btc);
-            if($sendbitcoin){
-            //if(true){
+            //if($sendbitcoin){
+            if(true){
                 Yii::$app->getSession()->setFlash('success', Yii::$app->languages->getLanguage()['send_help_completed_successfully'].'!');
             }else{
                 Yii::$app->getSession()->setFlash('error', Yii::$app->languages->getLanguage()['send_help_failed'].'!');
