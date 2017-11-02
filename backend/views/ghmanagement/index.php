@@ -75,7 +75,7 @@ $pending_count =  GhTransfer::find()->where(['publish' => GhTransfer::PUBLISH_NO
                                 'headerOptions' => ['class' => 'text-left'],
                                 'contentOptions' => ['class' => 'text-left'],
                                 'value' => function($data){
-                            		return $data->amount.' Btc';
+                            		return $data->amount.' $';
                             	}
                             ],
                             [
