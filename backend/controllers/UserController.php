@@ -253,6 +253,7 @@ class UserController extends BackendController
         if ($model->load(Yii::$app->request->post())) {
             $data = Yii::$app->request->post();
             
+            $model->wallet = $data['User']['wallet'];
             $model->referral_bonus = $data['User']['referral_bonus'];
             $model->manager_bonus = $data['User']['manager_bonus'];
             $model->save();
